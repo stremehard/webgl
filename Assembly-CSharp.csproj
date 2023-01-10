@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{91A646F0-EAFC-4707-1DA4-27CAA1C0717D}</ProjectGuid>
+    <ProjectGuid>{84F3AF49-9C8E-92A5-77BD-43BA6060691C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,7 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EnergyScript.cs" />
+    <Compile Include="Assets\Scripts\EnergyScript.cs" />
+    <Compile Include="Assets\Scripts\WindMillScript.cs" />
+    <Compile Include="Assets\Scripts\ActionScript.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
+    <None Include="Assets\Day-Night Skyboxes\readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

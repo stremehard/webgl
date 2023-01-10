@@ -7976,6 +7976,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Sign_mAC05D4F13D026746A8A27403AC
 		return ((int32_t)((int64_t)(((int64_t)(L_0>>((int32_t)63)))|((int64_t)((uint64_t)((-L_1))>>((int32_t)63))))));
 	}
 }
+// System.Single System.Math::Abs(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Math_Abs_m2643D26C436CEBF7A410A12616E010FF9B9A1CB2 (float ___value0, const RuntimeMethod* method) 
+{
+	return fabsf(___value0);
+}
 // System.Double System.Math::Atan(System.Double)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Atan_m9CF4D68F89D38CD217D04BED8EDFA6FB932BAEAE (double ___d0, const RuntimeMethod* method) 
 {

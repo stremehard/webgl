@@ -2,13 +2,16 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - EnergyScript
+    - WindMillScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -36,6 +39,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
@@ -53,7 +58,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 5758}
+      Script: {instanceID: 5808}
+    - Class: 114
+      Script: {instanceID: 6486}
+    - Class: 114
+      Script: {instanceID: 8514}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -61,6 +70,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -587,7 +600,7 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 957ad06b0ed13cdaff5a81f0e30532bb
+      Hash: 66c92083c2b52514cab1c4cb221c1dbf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnergyScript
@@ -645,6 +658,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 1e8a9723ea02a34d8cc4a349f3639472
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WindMillScript
   - hash:
       serializedVersion: 2
       Hash: a03cf6f60c605d858f83449f4b4fc400
@@ -839,6 +858,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 61162f80a82cd52ffe3022e0cda05da3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ActionScript
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -846,4 +871,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Career/Adapt/Unity
+  playerPath: D:/Career/Adapt/Unity/WebGL built
