@@ -808,8 +808,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnergyScript_GameOver_mBA9EE1B6E683C7E3DE75563B0D12518F2BB31F04 (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, const RuntimeMethod* method) ;
 // System.Void WindMillScript::SetFire()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_SetFire_m1E22645B97566792976E8A56288A0874ABADBD83 (WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* __this, const RuntimeMethod* method) ;
-// System.Void EnergyScript::Restart()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_Restart_m3CCCDEDEFAA7DE62447A420A71F2808017A24676 (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, const RuntimeMethod* method) ;
 // System.Void FireScript::Explode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireScript_Explode_m969A279C16F51417D46C387FCB7BE8F7C0C36FFC (FireScript_tFD2FF8BDA79A14507E837720FE54B4BE2BC7924C* __this, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator FireScript::ExplodeCoroutine()
@@ -1464,6 +1462,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetEnergyT4_m775E1B349D7147
 		return;
 	}
 }
+// System.Void EnergyScript::SetEnergyAllT(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetEnergyAllT_m1BE066264FBDFC3FA4A9505FB0DE9FE374594ECB (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, int32_t ___x0, const RuntimeMethod* method) 
+{
+	{
+		// this.energyT1 = x;
+		int32_t L_0 = ___x0;
+		__this->___energyT1_22 = L_0;
+		// this.energyT2 = x;
+		int32_t L_1 = ___x0;
+		__this->___energyT2_23 = L_1;
+		// this.energyT3 = x;
+		int32_t L_2 = ___x0;
+		__this->___energyT3_24 = L_2;
+		// this.energyT4 = x;
+		int32_t L_3 = ___x0;
+		__this->___energyT4_25 = L_3;
+		// }
+		return;
+	}
+}
 // System.Void EnergyScript::Restart()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_Restart_m3CCCDEDEFAA7DE62447A420A71F2808017A24676 (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, const RuntimeMethod* method) 
 {
@@ -2048,31 +2066,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGameOverU3Ed__27_MoveNext_mE3920D5440
 		{
 			case 0:
 			{
-				goto IL_0032;
+				goto IL_002e;
 			}
 			case 1:
 			{
-				goto IL_0052;
+				goto IL_004e;
 			}
 			case 2:
 			{
-				goto IL_007d;
+				goto IL_0079;
 			}
 			case 3:
 			{
-				goto IL_00a8;
+				goto IL_00a4;
 			}
 			case 4:
 			{
-				goto IL_00d3;
+				goto IL_00cf;
 			}
 			case 5:
 			{
-				goto IL_00fe;
-			}
-			case 6:
-			{
-				goto IL_012a;
+				goto IL_00fa;
 			}
 		}
 	}
@@ -2080,7 +2094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGameOverU3Ed__27_MoveNext_mE3920D5440
 		return (bool)0;
 	}
 
-IL_0032:
+IL_002e:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// yield return new WaitForSeconds(0.5f);
@@ -2092,7 +2106,7 @@ IL_0032:
 		return (bool)1;
 	}
 
-IL_0052:
+IL_004e:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// w1.SetFire();
@@ -2108,7 +2122,7 @@ IL_0052:
 		return (bool)1;
 	}
 
-IL_007d:
+IL_0079:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// w2.SetFire();
@@ -2124,7 +2138,7 @@ IL_007d:
 		return (bool)1;
 	}
 
-IL_00a8:
+IL_00a4:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// w3.SetFire();
@@ -2140,44 +2154,29 @@ IL_00a8:
 		return (bool)1;
 	}
 
-IL_00d3:
+IL_00cf:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// w4.SetFire();
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_13 = V_1;
 		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_14 = L_13->___w4_16;
 		WindMillScript_SetFire_m1E22645B97566792976E8A56288A0874ABADBD83(L_14, NULL);
-		// yield return new WaitForSeconds(10);
+		// yield return new WaitForSeconds(20);
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_15 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_15, (10.0f), NULL);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_15, (20.0f), NULL);
 		__this->___U3CU3E2__current_1 = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_15);
 		__this->___U3CU3E1__state_0 = 5;
 		return (bool)1;
 	}
 
-IL_00fe:
+IL_00fa:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// easterEgg.SetActive(true);
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_16 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = L_16->___easterEgg_17;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)1, NULL);
-		// yield return new WaitForSeconds(20);
-		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_18 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_18, (20.0f), NULL);
-		__this->___U3CU3E2__current_1 = L_18;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_18);
-		__this->___U3CU3E1__state_0 = 6;
-		return (bool)1;
-	}
-
-IL_012a:
-	{
-		__this->___U3CU3E1__state_0 = (-1);
-		// Restart();
-		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_19 = V_1;
-		EnergyScript_Restart_m3CCCDEDEFAA7DE62447A420A71F2808017A24676(L_19, NULL);
 		// }
 		return (bool)0;
 	}

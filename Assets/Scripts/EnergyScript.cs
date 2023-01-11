@@ -20,6 +20,7 @@ public class EnergyScript : MonoBehaviour
     public WindMillScript w3;
     public WindMillScript w4;
     public GameObject easterEgg;
+    public WindScript windScript;
 
     private int speed1;
     private int speed2;
@@ -45,6 +46,8 @@ public class EnergyScript : MonoBehaviour
 
     private void FixedUpdate()
     {
+        windScript.SetWindIntensity(energyT1+energyT2+energyT3+energyT4);
+        
         w1.SetSpeed(energyT1);
         w2.SetSpeed(energyT2);
         w3.SetSpeed(energyT3);
@@ -174,6 +177,13 @@ public class EnergyScript : MonoBehaviour
     }
     public void SetEnergyT4(int x)
     {
+        this.energyT4 = x;
+    }
+    public void SetEnergyAllT(int x)
+    {
+        this.energyT1 = x;
+        this.energyT2 = x;
+        this.energyT3 = x;
         this.energyT4 = x;
     }
     public void Restart()

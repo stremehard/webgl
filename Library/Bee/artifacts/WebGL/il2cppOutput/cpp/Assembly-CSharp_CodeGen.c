@@ -48,99 +48,101 @@ extern void EnergyScript_SetEnergyT2_mBEABCE9D2BE53A3D7E6536D6E68A57C0A4B1378A (
 extern void EnergyScript_SetEnergyT3_m481EAA3D16A9E2DA6DC1D88F4C99A48BCBFB525C (void);
 // 0x00000012 System.Void EnergyScript::SetEnergyT4(System.Int32)
 extern void EnergyScript_SetEnergyT4_m775E1B349D714780801C6DFE5D950DD647685F0A (void);
-// 0x00000013 System.Void EnergyScript::Restart()
+// 0x00000013 System.Void EnergyScript::SetEnergyAllT(System.Int32)
+extern void EnergyScript_SetEnergyAllT_m1BE066264FBDFC3FA4A9505FB0DE9FE374594ECB (void);
+// 0x00000014 System.Void EnergyScript::Restart()
 extern void EnergyScript_Restart_m3CCCDEDEFAA7DE62447A420A71F2808017A24676 (void);
-// 0x00000014 System.Void EnergyScript::.ctor()
+// 0x00000015 System.Void EnergyScript::.ctor()
 extern void EnergyScript__ctor_mF217E7842380BB0942020215C9CC0067E2341444 (void);
-// 0x00000015 System.Void EnergyScript/<CustomUpdate>d__24::.ctor(System.Int32)
+// 0x00000016 System.Void EnergyScript/<CustomUpdate>d__24::.ctor(System.Int32)
 extern void U3CCustomUpdateU3Ed__24__ctor_m225268A3C4208269C3E3E8B9DAADDC99F7403CB2 (void);
-// 0x00000016 System.Void EnergyScript/<CustomUpdate>d__24::System.IDisposable.Dispose()
+// 0x00000017 System.Void EnergyScript/<CustomUpdate>d__24::System.IDisposable.Dispose()
 extern void U3CCustomUpdateU3Ed__24_System_IDisposable_Dispose_mD988CFCF3A76E2E144B57851B062F7DE1D83B73A (void);
-// 0x00000017 System.Boolean EnergyScript/<CustomUpdate>d__24::MoveNext()
+// 0x00000018 System.Boolean EnergyScript/<CustomUpdate>d__24::MoveNext()
 extern void U3CCustomUpdateU3Ed__24_MoveNext_mA661DE6FC2D0151E9E0A300DF9EC4713DB199AA5 (void);
-// 0x00000018 System.Object EnergyScript/<CustomUpdate>d__24::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000019 System.Object EnergyScript/<CustomUpdate>d__24::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CCustomUpdateU3Ed__24_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7E04111667539CFD6F6A1E731D8E59719B23C132 (void);
-// 0x00000019 System.Void EnergyScript/<CustomUpdate>d__24::System.Collections.IEnumerator.Reset()
+// 0x0000001A System.Void EnergyScript/<CustomUpdate>d__24::System.Collections.IEnumerator.Reset()
 extern void U3CCustomUpdateU3Ed__24_System_Collections_IEnumerator_Reset_mBBD4A8F5423B0DC03C273BB5902F128E5109F052 (void);
-// 0x0000001A System.Object EnergyScript/<CustomUpdate>d__24::System.Collections.IEnumerator.get_Current()
+// 0x0000001B System.Object EnergyScript/<CustomUpdate>d__24::System.Collections.IEnumerator.get_Current()
 extern void U3CCustomUpdateU3Ed__24_System_Collections_IEnumerator_get_Current_mA938C7B9B789EB341CE09144D68983128A03D7CE (void);
-// 0x0000001B System.Void EnergyScript/<SwitchLights>d__26::.ctor(System.Int32)
+// 0x0000001C System.Void EnergyScript/<SwitchLights>d__26::.ctor(System.Int32)
 extern void U3CSwitchLightsU3Ed__26__ctor_mAE659462B40CA453358F4D81320B76D15186B5CC (void);
-// 0x0000001C System.Void EnergyScript/<SwitchLights>d__26::System.IDisposable.Dispose()
+// 0x0000001D System.Void EnergyScript/<SwitchLights>d__26::System.IDisposable.Dispose()
 extern void U3CSwitchLightsU3Ed__26_System_IDisposable_Dispose_m46807AC37B440DDC42903167867E4519EA4C5086 (void);
-// 0x0000001D System.Boolean EnergyScript/<SwitchLights>d__26::MoveNext()
+// 0x0000001E System.Boolean EnergyScript/<SwitchLights>d__26::MoveNext()
 extern void U3CSwitchLightsU3Ed__26_MoveNext_m349F3CC5DD122F7ABC3C50033D8BCE3DD84B565A (void);
-// 0x0000001E System.Object EnergyScript/<SwitchLights>d__26::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000001F System.Object EnergyScript/<SwitchLights>d__26::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CSwitchLightsU3Ed__26_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB26C8339360A302C9CC73591912B4D8217562856 (void);
-// 0x0000001F System.Void EnergyScript/<SwitchLights>d__26::System.Collections.IEnumerator.Reset()
+// 0x00000020 System.Void EnergyScript/<SwitchLights>d__26::System.Collections.IEnumerator.Reset()
 extern void U3CSwitchLightsU3Ed__26_System_Collections_IEnumerator_Reset_mA866C64E208D1BFAEBF33F5E58BA9BE878AD7854 (void);
-// 0x00000020 System.Object EnergyScript/<SwitchLights>d__26::System.Collections.IEnumerator.get_Current()
+// 0x00000021 System.Object EnergyScript/<SwitchLights>d__26::System.Collections.IEnumerator.get_Current()
 extern void U3CSwitchLightsU3Ed__26_System_Collections_IEnumerator_get_Current_m101F2DB15B18B04012FB539DBD1E1E025CF140FB (void);
-// 0x00000021 System.Void EnergyScript/<GameOver>d__27::.ctor(System.Int32)
+// 0x00000022 System.Void EnergyScript/<GameOver>d__27::.ctor(System.Int32)
 extern void U3CGameOverU3Ed__27__ctor_mD370ACEED2898AEC311C0B23AEB63C80F008443D (void);
-// 0x00000022 System.Void EnergyScript/<GameOver>d__27::System.IDisposable.Dispose()
+// 0x00000023 System.Void EnergyScript/<GameOver>d__27::System.IDisposable.Dispose()
 extern void U3CGameOverU3Ed__27_System_IDisposable_Dispose_mB2B9D153E8D5435F274E11BDC726F40250D5B590 (void);
-// 0x00000023 System.Boolean EnergyScript/<GameOver>d__27::MoveNext()
+// 0x00000024 System.Boolean EnergyScript/<GameOver>d__27::MoveNext()
 extern void U3CGameOverU3Ed__27_MoveNext_mE3920D5440FA09E5BE8EB95CBE9E72ED8C47CBA9 (void);
-// 0x00000024 System.Object EnergyScript/<GameOver>d__27::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000025 System.Object EnergyScript/<GameOver>d__27::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CGameOverU3Ed__27_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBA7B2BC6B6CA85FF9876F24A6D45850416FB5132 (void);
-// 0x00000025 System.Void EnergyScript/<GameOver>d__27::System.Collections.IEnumerator.Reset()
+// 0x00000026 System.Void EnergyScript/<GameOver>d__27::System.Collections.IEnumerator.Reset()
 extern void U3CGameOverU3Ed__27_System_Collections_IEnumerator_Reset_mF44612B796FA6F7FC12541E951B44B690EAA5B03 (void);
-// 0x00000026 System.Object EnergyScript/<GameOver>d__27::System.Collections.IEnumerator.get_Current()
+// 0x00000027 System.Object EnergyScript/<GameOver>d__27::System.Collections.IEnumerator.get_Current()
 extern void U3CGameOverU3Ed__27_System_Collections_IEnumerator_get_Current_m7EB86D01372C8E42227F7E32D1B80993648B5366 (void);
-// 0x00000027 System.Void FireScript::Start()
+// 0x00000028 System.Void FireScript::Start()
 extern void FireScript_Start_mB0687AFDCE44118A638183DBDE1631A82CAE3209 (void);
-// 0x00000028 System.Void FireScript::Update()
+// 0x00000029 System.Void FireScript::Update()
 extern void FireScript_Update_m16B7E44E9299B6FA29642ED7D40EBDD47704ACEF (void);
-// 0x00000029 System.Void FireScript::Explode()
+// 0x0000002A System.Void FireScript::Explode()
 extern void FireScript_Explode_m969A279C16F51417D46C387FCB7BE8F7C0C36FFC (void);
-// 0x0000002A System.Collections.IEnumerator FireScript::ExplodeCoroutine()
+// 0x0000002B System.Collections.IEnumerator FireScript::ExplodeCoroutine()
 extern void FireScript_ExplodeCoroutine_m07CDD6863BAEC25D2F5DD7EDD259AAF81B7C8A1F (void);
-// 0x0000002B System.Collections.IEnumerator FireScript::FireCoroutine()
+// 0x0000002C System.Collections.IEnumerator FireScript::FireCoroutine()
 extern void FireScript_FireCoroutine_mE6E8D9028A481DE4C0B99EF2D9F38E89555F1E71 (void);
-// 0x0000002C System.Void FireScript::.ctor()
+// 0x0000002D System.Void FireScript::.ctor()
 extern void FireScript__ctor_m238D78D8F7AE2BACD87C44CAA69D236024AD1BD0 (void);
-// 0x0000002D System.Void FireScript/<ExplodeCoroutine>d__6::.ctor(System.Int32)
+// 0x0000002E System.Void FireScript/<ExplodeCoroutine>d__6::.ctor(System.Int32)
 extern void U3CExplodeCoroutineU3Ed__6__ctor_m8BBC76E955B3A44EBA53C553CB739A601E6F4980 (void);
-// 0x0000002E System.Void FireScript/<ExplodeCoroutine>d__6::System.IDisposable.Dispose()
+// 0x0000002F System.Void FireScript/<ExplodeCoroutine>d__6::System.IDisposable.Dispose()
 extern void U3CExplodeCoroutineU3Ed__6_System_IDisposable_Dispose_mDAE05C9C74A6CFB31AA0F59D0097017FE38C4965 (void);
-// 0x0000002F System.Boolean FireScript/<ExplodeCoroutine>d__6::MoveNext()
+// 0x00000030 System.Boolean FireScript/<ExplodeCoroutine>d__6::MoveNext()
 extern void U3CExplodeCoroutineU3Ed__6_MoveNext_m907400B69D8B7FD3C609802EDB9CEEA6C31C5E5C (void);
-// 0x00000030 System.Object FireScript/<ExplodeCoroutine>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000031 System.Object FireScript/<ExplodeCoroutine>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CExplodeCoroutineU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB92E4C88535B1F65C7F5B171244D3496F8B68CFA (void);
-// 0x00000031 System.Void FireScript/<ExplodeCoroutine>d__6::System.Collections.IEnumerator.Reset()
+// 0x00000032 System.Void FireScript/<ExplodeCoroutine>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CExplodeCoroutineU3Ed__6_System_Collections_IEnumerator_Reset_m840C3D9A61CD9DE80D26F19212601D76E06FF57D (void);
-// 0x00000032 System.Object FireScript/<ExplodeCoroutine>d__6::System.Collections.IEnumerator.get_Current()
+// 0x00000033 System.Object FireScript/<ExplodeCoroutine>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CExplodeCoroutineU3Ed__6_System_Collections_IEnumerator_get_Current_m82A645FF798266A214222E5227FBEED436ABE4B1 (void);
-// 0x00000033 System.Void FireScript/<FireCoroutine>d__7::.ctor(System.Int32)
+// 0x00000034 System.Void FireScript/<FireCoroutine>d__7::.ctor(System.Int32)
 extern void U3CFireCoroutineU3Ed__7__ctor_mE6DDA195381FF87CAF7FD1ABDB392328F8E6875E (void);
-// 0x00000034 System.Void FireScript/<FireCoroutine>d__7::System.IDisposable.Dispose()
+// 0x00000035 System.Void FireScript/<FireCoroutine>d__7::System.IDisposable.Dispose()
 extern void U3CFireCoroutineU3Ed__7_System_IDisposable_Dispose_m05E69AD4BDEC4C78F5BD155427971AA42F854B50 (void);
-// 0x00000035 System.Boolean FireScript/<FireCoroutine>d__7::MoveNext()
+// 0x00000036 System.Boolean FireScript/<FireCoroutine>d__7::MoveNext()
 extern void U3CFireCoroutineU3Ed__7_MoveNext_mD563AE1C9524F0791BACF7BE787FD55BDB0025A6 (void);
-// 0x00000036 System.Object FireScript/<FireCoroutine>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000037 System.Object FireScript/<FireCoroutine>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CFireCoroutineU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m45D5068C1E48B4D758F3F67F4C600E7A53F1165E (void);
-// 0x00000037 System.Void FireScript/<FireCoroutine>d__7::System.Collections.IEnumerator.Reset()
+// 0x00000038 System.Void FireScript/<FireCoroutine>d__7::System.Collections.IEnumerator.Reset()
 extern void U3CFireCoroutineU3Ed__7_System_Collections_IEnumerator_Reset_m1B1777D97456A08DE9AE40797A7CD5B1B51E72E0 (void);
-// 0x00000038 System.Object FireScript/<FireCoroutine>d__7::System.Collections.IEnumerator.get_Current()
+// 0x00000039 System.Object FireScript/<FireCoroutine>d__7::System.Collections.IEnumerator.get_Current()
 extern void U3CFireCoroutineU3Ed__7_System_Collections_IEnumerator_get_Current_m164E3E89E322E4349F2B60813AAC340041156ED9 (void);
-// 0x00000039 System.Void WindMillScript::Start()
+// 0x0000003A System.Void WindMillScript::Start()
 extern void WindMillScript_Start_m605B1C1D690F76FB2F45178EADCBBADE6CA97ECB (void);
-// 0x0000003A System.Void WindMillScript::Update()
+// 0x0000003B System.Void WindMillScript::Update()
 extern void WindMillScript_Update_m5671344DD3E1AF101807FBA532796BDC9284F9B3 (void);
-// 0x0000003B System.Void WindMillScript::SetSpeed(System.Int32)
+// 0x0000003C System.Void WindMillScript::SetSpeed(System.Int32)
 extern void WindMillScript_SetSpeed_m1CCAC9EFF2B6C457CF65E335D886CA0A789369A9 (void);
-// 0x0000003C System.Int32 WindMillScript::GetSpeed()
+// 0x0000003D System.Int32 WindMillScript::GetSpeed()
 extern void WindMillScript_GetSpeed_mC55541748BC5C0A0B29328D77CAFEEB0945CAE0A (void);
-// 0x0000003D System.Void WindMillScript::OnMouseDown()
+// 0x0000003E System.Void WindMillScript::OnMouseDown()
 extern void WindMillScript_OnMouseDown_mBDBF246E0E671ECC37ADE813A1039247C5295ED0 (void);
-// 0x0000003E System.Void WindMillScript::OnMouseUp()
+// 0x0000003F System.Void WindMillScript::OnMouseUp()
 extern void WindMillScript_OnMouseUp_mBB808FD6A253A2047F326056D3BB6B1631DE2AD6 (void);
-// 0x0000003F System.Void WindMillScript::SetFire()
+// 0x00000040 System.Void WindMillScript::SetFire()
 extern void WindMillScript_SetFire_m1E22645B97566792976E8A56288A0874ABADBD83 (void);
-// 0x00000040 System.Void WindMillScript::.ctor()
+// 0x00000041 System.Void WindMillScript::.ctor()
 extern void WindMillScript__ctor_mC2EBF900680050E7966961B56CD89FC82E975E9A (void);
-static Il2CppMethodPointer s_methodPointers[64] = 
+static Il2CppMethodPointer s_methodPointers[65] = 
 {
 	ActionScript_Start_mFE10A45C11876C0D76364EEC70EABE117DA214C7,
 	ActionScript_Update_mD5A8DDD7EA1641BDFD8074E417A74E317F4904F5,
@@ -160,6 +162,7 @@ static Il2CppMethodPointer s_methodPointers[64] =
 	EnergyScript_SetEnergyT2_mBEABCE9D2BE53A3D7E6536D6E68A57C0A4B1378A,
 	EnergyScript_SetEnergyT3_m481EAA3D16A9E2DA6DC1D88F4C99A48BCBFB525C,
 	EnergyScript_SetEnergyT4_m775E1B349D714780801C6DFE5D950DD647685F0A,
+	EnergyScript_SetEnergyAllT_m1BE066264FBDFC3FA4A9505FB0DE9FE374594ECB,
 	EnergyScript_Restart_m3CCCDEDEFAA7DE62447A420A71F2808017A24676,
 	EnergyScript__ctor_mF217E7842380BB0942020215C9CC0067E2341444,
 	U3CCustomUpdateU3Ed__24__ctor_m225268A3C4208269C3E3E8B9DAADDC99F7403CB2,
@@ -207,7 +210,7 @@ static Il2CppMethodPointer s_methodPointers[64] =
 	WindMillScript_SetFire_m1E22645B97566792976E8A56288A0874ABADBD83,
 	WindMillScript__ctor_mC2EBF900680050E7966961B56CD89FC82E975E9A,
 };
-static const int32_t s_InvokerIndices[64] = 
+static const int32_t s_InvokerIndices[65] = 
 {
 	1055,
 	1055,
@@ -223,6 +226,7 @@ static const int32_t s_InvokerIndices[64] =
 	840,
 	840,
 	1031,
+	910,
 	910,
 	910,
 	910,
@@ -278,7 +282,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	64,
+	65,
 	s_methodPointers,
 	0,
 	NULL,

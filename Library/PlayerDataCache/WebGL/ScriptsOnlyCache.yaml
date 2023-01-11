@@ -11,10 +11,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -63,15 +61,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4754}
+      Script: {instanceID: 4802}
     - Class: 114
-      Script: {instanceID: 5764}
+      Script: {instanceID: 5236}
     - Class: 114
-      Script: {instanceID: 6442}
+      Script: {instanceID: 5814}
     - Class: 114
-      Script: {instanceID: 8288}
+      Script: {instanceID: 6492}
     - Class: 114
-      Script: {instanceID: 139624}
+      Script: {instanceID: 8338}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -565,6 +563,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: bfe2a6d48a2aa80f72e0be620cfde827
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EasterEggScript
+  - hash:
+      serializedVersion: 2
       Hash: 41ac98c9880a6f3758ca69dbaa1e7777
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -887,13 +891,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: bfe2a6d48a2aa80f72e0be620cfde827
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EasterEggScript
   platform: 20
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: D:/Career/Adapt/Unity/WebGL built
+  playerPath: /Users/olegeni/Courses/Unity/WebGL built
