@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - EnergyScript
+    - FireScript
     - WindMillScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -58,11 +59,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 5808}
+      Script: {instanceID: 5758}
     - Class: 114
-      Script: {instanceID: 6486}
+      Script: {instanceID: 6436}
     - Class: 114
-      Script: {instanceID: 8514}
+      Script: {instanceID: 29828}
+    - Class: 114
+      Script: {instanceID: 38724}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -70,6 +73,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -600,7 +607,7 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 66c92083c2b52514cab1c4cb221c1dbf
+      Hash: 85c5504cc28364237025155c644066af
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnergyScript
@@ -660,7 +667,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 1e8a9723ea02a34d8cc4a349f3639472
+      Hash: 2c69fbaaced61cf1716db69ecf958829
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WindMillScript
@@ -868,6 +875,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3b0074b33caeecc3fe3680799c750cb5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireScript
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

@@ -6,6 +6,7 @@ using System.Linq;
 public class EnergyScript : MonoBehaviour
 {
     public GameObject[] windows;
+    public FireScript fireScript;
     public Material black;
     public Material white;
     private GameObject tempGO;
@@ -102,13 +103,12 @@ public class EnergyScript : MonoBehaviour
             nrOn = (windows.Length * (speed1 + speed2 + speed3 + speed4)) / 400;
             Debug.Log(nrOn);
 
-            if (nrOn >= 768)
+            if (nrOn >= 737)
             {
-                rndSwitchValue = 2;
-            }
-            else if (nrOn >= 737)
-            {
+                //game over
                 rndSwitchValue = 4;
+                fireScript.on = true;
+                StartCoroutine(SetTurbinesOnFire());
             }
             else if (nrOn >= 705)
             {
@@ -142,5 +142,35 @@ public class EnergyScript : MonoBehaviour
 
             yield return new WaitForSeconds(0.05f);
         }
+    }
+
+    IEnumerator SetTurbinesOnFire()
+    {
+        yield return new WaitForSeconds(0.5f);
+        w1.SetFire();
+        yield return new WaitForSeconds(0.5f);
+        w2.SetFire();
+        yield return new WaitForSeconds(0.5f);
+        w3.SetFire();
+        yield return new WaitForSeconds(0.5f);
+        w4.SetFire();
+    }
+
+    //scripts for React
+    public void SetEnergyT1(int x)
+    {
+        this.energyT1 = x;
+    }
+    public void SetEnergyT2(int x)
+    {
+        this.energyT2 = x;
+    }
+    public void SetEnergyT3(int x)
+    {
+        this.energyT3 = x;
+    }
+    public void SetEnergyT4(int x)
+    {
+        this.energyT4 = x;
     }
 }

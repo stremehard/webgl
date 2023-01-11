@@ -59,10 +59,13 @@
     <Compile Include="Assets\Scripts\EnergyScript.cs" />
     <Compile Include="Assets\Scripts\WindMillScript.cs" />
     <Compile Include="Assets\Scripts\ActionScript.cs" />
+    <Compile Include="Assets\FireScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
     <None Include="Assets\Day-Night Skyboxes\readme.txt" />
+    <None Include="Assets\Hovl Studio\Procedural fire\Shaders\FireSphere.shader" />
+    <None Include="Assets\Hovl Studio\Procedural fire\Demo scene\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

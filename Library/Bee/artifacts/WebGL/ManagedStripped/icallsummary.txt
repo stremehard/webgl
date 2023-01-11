@@ -39,6 +39,7 @@ UnityEngine.Experimental.Rendering.GraphicsFormatUtility::GetGraphicsFormat_Nati
 UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemSettings::ScriptingDirtyReflectionSystemInstance
 UnityEngine.GameObject::Internal_CreateGameObject
 UnityEngine.GameObject::SendMessage
+UnityEngine.GameObject::SetActive
 UnityEngine.GameObject::GetComponent
 UnityEngine.GameObject::FindGameObjectsWithTag
 UnityEngine.Gradient::Internal_Equals
@@ -85,6 +86,10 @@ UnityEngine.MonoBehaviour::StartCoroutineManaged2
 UnityEngine.Object::GetOffsetOfInstanceIDInCPlusPlusObject
 UnityEngine.Object::ToString
 UnityEngine.Object::set_hideFlags
+UnityEngine.ParticleSystem::EmitOld_Internal
+UnityEngine.ParticleSystem::Emit_Injected
+UnityEngine.ParticleSystem::Emit_Internal
+UnityEngine.ParticleSystemRenderer::GetMeshes
 UnityEngine.Physics::get_defaultPhysicsScene_Injected
 UnityEngine.Physics::Internal_RaycastAll_Injected
 UnityEngine.PhysicsScene::Internal_RaycastTest_Injected
