@@ -12,6 +12,8 @@
 
 
 
+// UnityEngine.Events.UnityEvent`1<UnityEngine.SpriteRenderer>
+struct UnityEvent_1_t8ABE5544759145B8D7A09F1C54FFCB6907EDD56E;
 // UnityEngine.GameObject[]
 struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
 // System.IntPtr[]
@@ -22,6 +24,8 @@ struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 struct ActionScript_tE879C7DC15246C2745F07AF90914314F35F5B6BD;
 // UnityEngine.Animator
 struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883;
+// UnityEngine.AudioSource
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299;
 // UnityEngine.Collider
 struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
 // UnityEngine.Component
@@ -40,6 +44,8 @@ struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 // System.Collections.IEnumerator
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+// UnityEngine.Light
+struct Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3;
 // UnityEngine.Material
 struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
 // UnityEngine.MeshRenderer
@@ -54,6 +60,8 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
 struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
 // System.Runtime.Serialization.SafeSerializationManager
 struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+// UnityEngine.SpriteRenderer
+struct SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B;
 // System.String
 struct String_t;
 // UnityEngine.Transform
@@ -62,14 +70,16 @@ struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 // UnityEngine.WaitForSeconds
 struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
+// WeatherScript
+struct WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA;
 // WindMillScript
 struct WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C;
-// EnergyScript/<CustomUpdate>d__24
-struct U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2;
-// EnergyScript/<GameOver>d__27
-struct U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F;
-// EnergyScript/<SwitchLights>d__26
-struct U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46;
+// EnergyScript/<CustomUpdate>d__25
+struct U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694;
+// EnergyScript/<GameOver>d__28
+struct U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548;
+// EnergyScript/<SwitchLights>d__27
+struct U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A;
 // FireScript/<ExplodeCoroutine>d__6
 struct U3CExplodeCoroutineU3Ed__6_t103892B6E589542872D9291B85FAADF5D9D3412C;
 // FireScript/<FireCoroutine>d__7
@@ -79,11 +89,11 @@ IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CExplodeCoroutineU3Ed__6_t103892B6E589542872D9291B85FAADF5D9D3412C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CFireCoroutineU3Ed__7_t1F1DFB012084C9475B18B14EC118805B985FC2AE_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0;
 IL2CPP_EXTERN_C String_t* _stringLiteral3CC602B8E3B8EE8F3A0B9ACD4B98A01C2CF7A7AF;
@@ -94,13 +104,16 @@ IL2CPP_EXTERN_C String_t* _stringLiteral7CED40A2371C9115296B30B078822F41D08EDA49
 IL2CPP_EXTERN_C String_t* _stringLiteral92279AEAA61F783CFB13A5DD8C993C980EEC8F4A;
 IL2CPP_EXTERN_C String_t* _stringLiteral9F24FB9F6B79BD601755A6710686857F7B86347B;
 IL2CPP_EXTERN_C String_t* _stringLiteralCEA0ED0066879A12EF7428466404FD5A318EEDDA;
+IL2CPP_EXTERN_C String_t* _stringLiteralEB9A43A207EECF86B5802D65091B5C82B984E052;
+IL2CPP_EXTERN_C String_t* _stringLiteralF2F8A73F36BC9F8340CA51E5D8320663390E37DC;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CCustomUpdateU3Ed__24_System_Collections_IEnumerator_Reset_mBBD4A8F5423B0DC03C273BB5902F128E5109F052_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCustomUpdateU3Ed__25_System_Collections_IEnumerator_Reset_m57BDAB6ADFB89A4FB94CA2EA420ED3A22672B517_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CExplodeCoroutineU3Ed__6_System_Collections_IEnumerator_Reset_m840C3D9A61CD9DE80D26F19212601D76E06FF57D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CFireCoroutineU3Ed__7_System_Collections_IEnumerator_Reset_m1B1777D97456A08DE9AE40797A7CD5B1B51E72E0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CGameOverU3Ed__27_System_Collections_IEnumerator_Reset_mF44612B796FA6F7FC12541E951B44B690EAA5B03_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CSwitchLightsU3Ed__26_System_Collections_IEnumerator_Reset_mA866C64E208D1BFAEBF33F5E58BA9BE878AD7854_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGameOverU3Ed__28_System_Collections_IEnumerator_Reset_mC3768B5D650F6934017ACE51933F56F1024D9BCC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CSwitchLightsU3Ed__27_System_Collections_IEnumerator_Reset_m0A7E5E794D0C72D7E3616D17C3BA09E87F014FD9_RuntimeMethod_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
@@ -162,38 +175,38 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
 };
 
-// EnergyScript/<CustomUpdate>d__24
-struct U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2  : public RuntimeObject
+// EnergyScript/<CustomUpdate>d__25
+struct U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694  : public RuntimeObject
 {
-	// System.Int32 EnergyScript/<CustomUpdate>d__24::<>1__state
+	// System.Int32 EnergyScript/<CustomUpdate>d__25::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object EnergyScript/<CustomUpdate>d__24::<>2__current
+	// System.Object EnergyScript/<CustomUpdate>d__25::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// EnergyScript EnergyScript/<CustomUpdate>d__24::<>4__this
+	// EnergyScript EnergyScript/<CustomUpdate>d__25::<>4__this
 	EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* ___U3CU3E4__this_2;
 };
 
-// EnergyScript/<GameOver>d__27
-struct U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F  : public RuntimeObject
+// EnergyScript/<GameOver>d__28
+struct U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548  : public RuntimeObject
 {
-	// System.Int32 EnergyScript/<GameOver>d__27::<>1__state
+	// System.Int32 EnergyScript/<GameOver>d__28::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object EnergyScript/<GameOver>d__27::<>2__current
+	// System.Object EnergyScript/<GameOver>d__28::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// EnergyScript EnergyScript/<GameOver>d__27::<>4__this
+	// EnergyScript EnergyScript/<GameOver>d__28::<>4__this
 	EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* ___U3CU3E4__this_2;
 };
 
-// EnergyScript/<SwitchLights>d__26
-struct U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46  : public RuntimeObject
+// EnergyScript/<SwitchLights>d__27
+struct U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A  : public RuntimeObject
 {
-	// System.Int32 EnergyScript/<SwitchLights>d__26::<>1__state
+	// System.Int32 EnergyScript/<SwitchLights>d__27::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object EnergyScript/<SwitchLights>d__26::<>2__current
+	// System.Object EnergyScript/<SwitchLights>d__27::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// EnergyScript EnergyScript/<SwitchLights>d__26::<>4__this
+	// EnergyScript EnergyScript/<SwitchLights>d__27::<>4__this
 	EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* ___U3CU3E4__this_2;
-	// UnityEngine.GameObject[] EnergyScript/<SwitchLights>d__26::windows
+	// UnityEngine.GameObject[] EnergyScript/<SwitchLights>d__27::windows
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___windows_3;
 };
 
@@ -263,6 +276,95 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 	String_t* ___TrueString_5;
 	// System.String System.Boolean::FalseString
 	String_t* ___FalseString_6;
+};
+
+// System.Byte
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	// System.Byte System.Byte::m_value
+	uint8_t ___m_value_0;
+};
+
+// UnityEngine.Color
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	// System.Single UnityEngine.Color::r
+	float ___r_0;
+	// System.Single UnityEngine.Color::g
+	float ___g_1;
+	// System.Single UnityEngine.Color::b
+	float ___b_2;
+	// System.Single UnityEngine.Color::a
+	float ___a_3;
+};
+
+// UnityEngine.Color32
+struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int32 UnityEngine.Color32::rgba
+			int32_t ___rgba_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___rgba_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Byte UnityEngine.Color32::r
+			uint8_t ___r_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___r_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___g_2_OffsetPadding[1];
+			// System.Byte UnityEngine.Color32::g
+			uint8_t ___g_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___g_2_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___g_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___b_3_OffsetPadding[2];
+			// System.Byte UnityEngine.Color32::b
+			uint8_t ___b_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___b_3_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___b_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___a_4_OffsetPadding[3];
+			// System.Byte UnityEngine.Color32::a
+			uint8_t ___a_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___a_4_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___a_4_forAlignmentOnly;
+		};
+	};
 };
 
 // System.Double
@@ -555,6 +657,18 @@ struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883  : public Behaviour_t0
 {
 };
 
+// UnityEngine.AudioBehaviour
+struct AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
+// UnityEngine.Light
+struct Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	// System.Int32 UnityEngine.Light::m_BakedIndex
+	int32_t ___m_BakedIndex_4;
+};
+
 // UnityEngine.MeshRenderer
 struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
 {
@@ -563,6 +677,13 @@ struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE  : public Renderer
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
+};
+
+// UnityEngine.SpriteRenderer
+struct SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
+{
+	// UnityEngine.Events.UnityEvent`1<UnityEngine.SpriteRenderer> UnityEngine.SpriteRenderer::m_SpriteChangeEvent
+	UnityEvent_1_t8ABE5544759145B8D7A09F1C54FFCB6907EDD56E* ___m_SpriteChangeEvent_4;
 };
 
 // ActionScript
@@ -576,6 +697,11 @@ struct ActionScript_tE879C7DC15246C2745F07AF90914314F35F5B6BD  : public MonoBeha
 	float ___rotateValue_6;
 	// System.Single ActionScript::speed
 	float ___speed_7;
+};
+
+// UnityEngine.AudioSource
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299  : public AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941
+{
 };
 
 // EasterEggScript
@@ -624,22 +750,24 @@ struct EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6  : public MonoBeha
 	WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* ___w4_16;
 	// UnityEngine.GameObject EnergyScript::easterEgg
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___easterEgg_17;
+	// WeatherScript EnergyScript::weatherScript
+	WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* ___weatherScript_18;
 	// System.Int32 EnergyScript::speed1
-	int32_t ___speed1_18;
+	int32_t ___speed1_19;
 	// System.Int32 EnergyScript::speed2
-	int32_t ___speed2_19;
+	int32_t ___speed2_20;
 	// System.Int32 EnergyScript::speed3
-	int32_t ___speed3_20;
+	int32_t ___speed3_21;
 	// System.Int32 EnergyScript::speed4
-	int32_t ___speed4_21;
+	int32_t ___speed4_22;
 	// System.Int32 EnergyScript::energyT1
-	int32_t ___energyT1_22;
+	int32_t ___energyT1_23;
 	// System.Int32 EnergyScript::energyT2
-	int32_t ___energyT2_23;
+	int32_t ___energyT2_24;
 	// System.Int32 EnergyScript::energyT3
-	int32_t ___energyT3_24;
+	int32_t ___energyT3_25;
 	// System.Int32 EnergyScript::energyT4
-	int32_t ___energyT4_25;
+	int32_t ___energyT4_26;
 };
 
 // FireScript
@@ -651,6 +779,39 @@ struct FireScript_tFD2FF8BDA79A14507E837720FE54B4BE2BC7924C  : public MonoBehavi
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___explosions_5;
 	// UnityEngine.GameObject[] FireScript::fires
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___fires_6;
+};
+
+// WeatherScript
+struct WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Single WeatherScript::windIntensity
+	float ___windIntensity_4;
+	// System.Single WeatherScript::cloudIntensity
+	float ___cloudIntensity_5;
+	// System.Single WeatherScript::brightness
+	float ___brightness_6;
+	// UnityEngine.Material WeatherScript::skyCloudyMaterial
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___skyCloudyMaterial_7;
+	// UnityEngine.Light WeatherScript::directionalLight
+	Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* ___directionalLight_8;
+	// UnityEngine.Material WeatherScript::grass
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___grass_9;
+	// UnityEngine.SpriteRenderer WeatherScript::mountains
+	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___mountains_10;
+	// UnityEngine.SpriteRenderer WeatherScript::mountains1
+	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___mountains1_11;
+	// UnityEngine.SpriteRenderer WeatherScript::mountains2
+	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___mountains2_12;
+	// UnityEngine.Color32 WeatherScript::darkGrass
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___darkGrass_13;
+	// UnityEngine.Color32 WeatherScript::brightGrass
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___brightGrass_14;
+	// UnityEngine.Color32 WeatherScript::darkMountains
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___darkMountains_15;
+	// UnityEngine.Color32 WeatherScript::brightMountains
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___brightMountains_16;
+	// System.Single WeatherScript::lerpGrassValue
+	float ___lerpGrassValue_17;
 };
 
 // WindMillScript
@@ -773,18 +934,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnergyScript_CustomUpdate_m7554DBDEC70BEC7C860FF273BAE2F6FCA51B551A (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, const RuntimeMethod* method) ;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___routine0, const RuntimeMethod* method) ;
+// System.Void WeatherScript::SetWindIntensity(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherScript_SetWindIntensity_m2DCDD3777814A68EB59D701DC6B5F30B976DC7CD (WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* __this, int32_t ___windIntensity0, const RuntimeMethod* method) ;
 // System.Void WindMillScript::SetSpeed(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_SetSpeed_m1CCAC9EFF2B6C457CF65E335D886CA0A789369A9 (WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* __this, int32_t ___speed0, const RuntimeMethod* method) ;
 // System.Int32 WindMillScript::GetSpeed()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t WindMillScript_GetSpeed_mC55541748BC5C0A0B29328D77CAFEEB0945CAE0A_inline (WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* __this, const RuntimeMethod* method) ;
-// System.Void EnergyScript/<CustomUpdate>d__24::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCustomUpdateU3Ed__24__ctor_m225268A3C4208269C3E3E8B9DAADDC99F7403CB2 (U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void EnergyScript/<CustomUpdate>d__25::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCustomUpdateU3Ed__25__ctor_mD2D0820F9E0E81D7B4829C9D48E3FED88F2A7201 (U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Random::Range(System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_mD4D2DEE3D2E75D07740C9A6F93B3088B03BBB8F8 (int32_t ___minInclusive0, int32_t ___maxExclusive1, const RuntimeMethod* method) ;
-// System.Void EnergyScript/<SwitchLights>d__26::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSwitchLightsU3Ed__26__ctor_mAE659462B40CA453358F4D81320B76D15186B5CC (U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
-// System.Void EnergyScript/<GameOver>d__27::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGameOverU3Ed__27__ctor_mD370ACEED2898AEC311C0B23AEB63C80F008443D (U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void EnergyScript/<SwitchLights>d__27::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSwitchLightsU3Ed__27__ctor_m608B317328799A7A4D3B188CC8C47CA28B3E94F4 (U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void EnergyScript/<GameOver>d__28::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGameOverU3Ed__28__ctor_m6F3CD15709098F570C955F8644020E1EC4D94F38 (U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void WeatherScript::SetBrightness(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherScript_SetBrightness_m2B17922E658670C99ADD1DC2CC0ED183AE5ED350 (WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* __this, int32_t ___brightness0, const RuntimeMethod* method) ;
+// System.Void WeatherScript::SetCloudIntensity(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherScript_SetCloudIntensity_mF3C1A6590DFE59656480E63AFB494377F4E609E2 (WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* __this, int32_t ___cloudIntensity0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF (String_t* ___sceneName0, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
@@ -818,6 +985,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CExplodeCoroutineU3Ed__6__ctor_m8BBC76
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFireCoroutineU3Ed__7__ctor_mE6DDA195381FF87CAF7FD1ABDB392328F8E6875E (U3CFireCoroutineU3Ed__7_t1F1DFB012084C9475B18B14EC118805B985FC2AE* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator FireScript::FireCoroutine()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FireScript_FireCoroutine_mE6E8D9028A481DE4C0B99EF2D9F38E89555F1E71 (FireScript_tFD2FF8BDA79A14507E837720FE54B4BE2BC7924C* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Color32::.ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* __this, uint8_t ___r0, uint8_t ___g1, uint8_t ___b2, uint8_t ___a3, const RuntimeMethod* method) ;
+// T UnityEngine.Component::GetComponent<UnityEngine.AudioSource>()
+inline AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+// System.Void UnityEngine.AudioSource::set_volume(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, float ___value0, const RuntimeMethod* method) ;
+// System.Single UnityEngine.Time::get_time()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_time_m0BEE9AACD0723FE414465B77C9C64D12263675F3 (const RuntimeMethod* method) ;
+// System.Void UnityEngine.Material::SetFloat(System.String,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, String_t* ___name0, float ___value1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Light::set_intensity(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Light_set_intensity_mE4820C7F39F490B92ED5EA0C3AADA7C0775BE854 (Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* __this, float ___value0, const RuntimeMethod* method) ;
+// UnityEngine.Color32 UnityEngine.Color32::Lerp(UnityEngine.Color32,UnityEngine.Color32,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B Color32_Lerp_mFCF88660799190EF7B1B9B811CA269C25555CA9E_inline (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___a0, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___b1, float ___t2, const RuntimeMethod* method) ;
+// UnityEngine.Color UnityEngine.Color32::op_Implicit(UnityEngine.Color32)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color32_op_Implicit_m203A634DBB77053C9400C68065CA29529103D172_inline (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___c0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.SpriteRenderer::set_color(UnityEngine.Color)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546 (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Material::set_color(UnityEngine.Color)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___value0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Input::GetAxis(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Input_GetAxis_m1F49B26F24032F45FB4583C95FB24E6771A161D4 (String_t* ___axisName0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Time::get_deltaTime()
@@ -834,6 +1024,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_Internal_MakePositive_m864320DA2D027C186C95B2A5BC2C66B0EB4A6C11 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___euler0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Mathf::Clamp01(System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline (float ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___r0, float ___g1, float ___b2, float ___a3, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1259,42 +1451,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_Start_m3807E2F751D62CA2BB7F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_FixedUpdate_m319CD31806E38B3239CF5662978E93ABA6A612D4 (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, const RuntimeMethod* method) 
 {
 	{
+		// weatherScript.SetWindIntensity(energyT1+energyT2+energyT3+energyT4);
+		WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* L_0 = __this->___weatherScript_18;
+		int32_t L_1 = __this->___energyT1_23;
+		int32_t L_2 = __this->___energyT2_24;
+		int32_t L_3 = __this->___energyT3_25;
+		int32_t L_4 = __this->___energyT4_26;
+		WeatherScript_SetWindIntensity_m2DCDD3777814A68EB59D701DC6B5F30B976DC7CD(L_0, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_1, L_2)), L_3)), L_4)), NULL);
 		// w1.SetSpeed(energyT1);
-		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_0 = __this->___w1_13;
-		int32_t L_1 = __this->___energyT1_22;
-		WindMillScript_SetSpeed_m1CCAC9EFF2B6C457CF65E335D886CA0A789369A9(L_0, L_1, NULL);
+		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_5 = __this->___w1_13;
+		int32_t L_6 = __this->___energyT1_23;
+		WindMillScript_SetSpeed_m1CCAC9EFF2B6C457CF65E335D886CA0A789369A9(L_5, L_6, NULL);
 		// w2.SetSpeed(energyT2);
-		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_2 = __this->___w2_14;
-		int32_t L_3 = __this->___energyT2_23;
-		WindMillScript_SetSpeed_m1CCAC9EFF2B6C457CF65E335D886CA0A789369A9(L_2, L_3, NULL);
+		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_7 = __this->___w2_14;
+		int32_t L_8 = __this->___energyT2_24;
+		WindMillScript_SetSpeed_m1CCAC9EFF2B6C457CF65E335D886CA0A789369A9(L_7, L_8, NULL);
 		// w3.SetSpeed(energyT3);
-		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_4 = __this->___w3_15;
-		int32_t L_5 = __this->___energyT3_24;
-		WindMillScript_SetSpeed_m1CCAC9EFF2B6C457CF65E335D886CA0A789369A9(L_4, L_5, NULL);
+		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_9 = __this->___w3_15;
+		int32_t L_10 = __this->___energyT3_25;
+		WindMillScript_SetSpeed_m1CCAC9EFF2B6C457CF65E335D886CA0A789369A9(L_9, L_10, NULL);
 		// w4.SetSpeed(energyT4);
-		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_6 = __this->___w4_16;
-		int32_t L_7 = __this->___energyT4_25;
-		WindMillScript_SetSpeed_m1CCAC9EFF2B6C457CF65E335D886CA0A789369A9(L_6, L_7, NULL);
+		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_11 = __this->___w4_16;
+		int32_t L_12 = __this->___energyT4_26;
+		WindMillScript_SetSpeed_m1CCAC9EFF2B6C457CF65E335D886CA0A789369A9(L_11, L_12, NULL);
 		// speed1 = w1.GetSpeed();
-		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_8 = __this->___w1_13;
-		int32_t L_9;
-		L_9 = WindMillScript_GetSpeed_mC55541748BC5C0A0B29328D77CAFEEB0945CAE0A_inline(L_8, NULL);
-		__this->___speed1_18 = L_9;
+		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_13 = __this->___w1_13;
+		int32_t L_14;
+		L_14 = WindMillScript_GetSpeed_mC55541748BC5C0A0B29328D77CAFEEB0945CAE0A_inline(L_13, NULL);
+		__this->___speed1_19 = L_14;
 		// speed2 = w2.GetSpeed();
-		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_10 = __this->___w2_14;
-		int32_t L_11;
-		L_11 = WindMillScript_GetSpeed_mC55541748BC5C0A0B29328D77CAFEEB0945CAE0A_inline(L_10, NULL);
-		__this->___speed2_19 = L_11;
+		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_15 = __this->___w2_14;
+		int32_t L_16;
+		L_16 = WindMillScript_GetSpeed_mC55541748BC5C0A0B29328D77CAFEEB0945CAE0A_inline(L_15, NULL);
+		__this->___speed2_20 = L_16;
 		// speed3 = w3.GetSpeed();
-		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_12 = __this->___w3_15;
-		int32_t L_13;
-		L_13 = WindMillScript_GetSpeed_mC55541748BC5C0A0B29328D77CAFEEB0945CAE0A_inline(L_12, NULL);
-		__this->___speed3_20 = L_13;
+		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_17 = __this->___w3_15;
+		int32_t L_18;
+		L_18 = WindMillScript_GetSpeed_mC55541748BC5C0A0B29328D77CAFEEB0945CAE0A_inline(L_17, NULL);
+		__this->___speed3_21 = L_18;
 		// speed4 = w4.GetSpeed();
-		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_14 = __this->___w4_16;
-		int32_t L_15;
-		L_15 = WindMillScript_GetSpeed_mC55541748BC5C0A0B29328D77CAFEEB0945CAE0A_inline(L_14, NULL);
-		__this->___speed4_21 = L_15;
+		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_19 = __this->___w4_16;
+		int32_t L_20;
+		L_20 = WindMillScript_GetSpeed_mC55541748BC5C0A0B29328D77CAFEEB0945CAE0A_inline(L_19, NULL);
+		__this->___speed4_22 = L_20;
 		// }
 		return;
 	}
@@ -1305,13 +1504,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnergyScript_CustomUpdate_m755
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2* L_0 = (U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2*)il2cpp_codegen_object_new(U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2_il2cpp_TypeInfo_var);
-		U3CCustomUpdateU3Ed__24__ctor_m225268A3C4208269C3E3E8B9DAADDC99F7403CB2(L_0, 0, NULL);
-		U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2* L_1 = L_0;
+		U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694* L_0 = (U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694*)il2cpp_codegen_object_new(U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694_il2cpp_TypeInfo_var);
+		U3CCustomUpdateU3Ed__25__ctor_mD2D0820F9E0E81D7B4829C9D48E3FED88F2A7201(L_0, 0, NULL);
+		U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694* L_1 = L_0;
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
 		return L_1;
@@ -1384,16 +1583,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnergyScript_SwitchLights_mE16
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46* L_0 = (U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46*)il2cpp_codegen_object_new(U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46_il2cpp_TypeInfo_var);
-		U3CSwitchLightsU3Ed__26__ctor_mAE659462B40CA453358F4D81320B76D15186B5CC(L_0, 0, NULL);
-		U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46* L_1 = L_0;
+		U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A* L_0 = (U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A*)il2cpp_codegen_object_new(U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A_il2cpp_TypeInfo_var);
+		U3CSwitchLightsU3Ed__27__ctor_m608B317328799A7A4D3B188CC8C47CA28B3E94F4(L_0, 0, NULL);
+		U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A* L_1 = L_0;
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
-		U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46* L_2 = L_1;
+		U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A* L_2 = L_1;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_3 = ___windows0;
 		L_2->___windows_3 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___windows_3), (void*)L_3);
@@ -1406,13 +1605,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnergyScript_GameOver_mBA9EE1B
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F* L_0 = (U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F*)il2cpp_codegen_object_new(U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F_il2cpp_TypeInfo_var);
-		U3CGameOverU3Ed__27__ctor_mD370ACEED2898AEC311C0B23AEB63C80F008443D(L_0, 0, NULL);
-		U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F* L_1 = L_0;
+		U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548* L_0 = (U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548*)il2cpp_codegen_object_new(U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548_il2cpp_TypeInfo_var);
+		U3CGameOverU3Ed__28__ctor_m6F3CD15709098F570C955F8644020E1EC4D94F38(L_0, 0, NULL);
+		U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548* L_1 = L_0;
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
 		return L_1;
@@ -1422,9 +1621,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnergyScript_GameOver_mBA9EE1B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetEnergyT1_mD1445B7E20719A36E4F6B51FB414D30B8F5C52CA (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, int32_t ___x0, const RuntimeMethod* method) 
 {
 	{
-		// this.energyT1 = x;
+		// if(x>=0 && x<=120)
 		int32_t L_0 = ___x0;
-		__this->___energyT1_22 = L_0;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_1 = ___x0;
+		if ((((int32_t)L_1) > ((int32_t)((int32_t)120))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		// this.energyT1 = x;
+		int32_t L_2 = ___x0;
+		__this->___energyT1_23 = L_2;
+	}
+
+IL_0010:
+	{
 		// }
 		return;
 	}
@@ -1433,9 +1651,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetEnergyT1_mD1445B7E20719A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetEnergyT2_mBEABCE9D2BE53A3D7E6536D6E68A57C0A4B1378A (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, int32_t ___x0, const RuntimeMethod* method) 
 {
 	{
-		// this.energyT2 = x;
+		// if(x>=0 && x<=120)
 		int32_t L_0 = ___x0;
-		__this->___energyT2_23 = L_0;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_1 = ___x0;
+		if ((((int32_t)L_1) > ((int32_t)((int32_t)120))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		// this.energyT2 = x;
+		int32_t L_2 = ___x0;
+		__this->___energyT2_24 = L_2;
+	}
+
+IL_0010:
+	{
 		// }
 		return;
 	}
@@ -1444,9 +1681,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetEnergyT2_mBEABCE9D2BE53A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetEnergyT3_m481EAA3D16A9E2DA6DC1D88F4C99A48BCBFB525C (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, int32_t ___x0, const RuntimeMethod* method) 
 {
 	{
-		// this.energyT3 = x;
+		// if(x>=0 && x<=120)
 		int32_t L_0 = ___x0;
-		__this->___energyT3_24 = L_0;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_1 = ___x0;
+		if ((((int32_t)L_1) > ((int32_t)((int32_t)120))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		// this.energyT3 = x;
+		int32_t L_2 = ___x0;
+		__this->___energyT3_25 = L_2;
+	}
+
+IL_0010:
+	{
 		// }
 		return;
 	}
@@ -1455,9 +1711,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetEnergyT3_m481EAA3D16A9E2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetEnergyT4_m775E1B349D714780801C6DFE5D950DD647685F0A (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, int32_t ___x0, const RuntimeMethod* method) 
 {
 	{
-		// this.energyT4 = x;
+		// if(x>=0 && x<=120)
 		int32_t L_0 = ___x0;
-		__this->___energyT4_25 = L_0;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_1 = ___x0;
+		if ((((int32_t)L_1) > ((int32_t)((int32_t)120))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		// this.energyT4 = x;
+		int32_t L_2 = ___x0;
+		__this->___energyT4_26 = L_2;
+	}
+
+IL_0010:
+	{
 		// }
 		return;
 	}
@@ -1466,18 +1741,99 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetEnergyT4_m775E1B349D7147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetEnergyAllT_m1BE066264FBDFC3FA4A9505FB0DE9FE374594ECB (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, int32_t ___x0, const RuntimeMethod* method) 
 {
 	{
-		// this.energyT1 = x;
+		// if(x>=0 && x<=120)
 		int32_t L_0 = ___x0;
-		__this->___energyT1_22 = L_0;
-		// this.energyT2 = x;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0025;
+		}
+	}
+	{
 		int32_t L_1 = ___x0;
-		__this->___energyT2_23 = L_1;
-		// this.energyT3 = x;
+		if ((((int32_t)L_1) > ((int32_t)((int32_t)120))))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		// this.energyT1 = x;
 		int32_t L_2 = ___x0;
-		__this->___energyT3_24 = L_2;
-		// this.energyT4 = x;
+		__this->___energyT1_23 = L_2;
+		// this.energyT2 = x;
 		int32_t L_3 = ___x0;
-		__this->___energyT4_25 = L_3;
+		__this->___energyT2_24 = L_3;
+		// this.energyT3 = x;
+		int32_t L_4 = ___x0;
+		__this->___energyT3_25 = L_4;
+		// this.energyT4 = x;
+		int32_t L_5 = ___x0;
+		__this->___energyT4_26 = L_5;
+	}
+
+IL_0025:
+	{
+		// }
+		return;
+	}
+}
+// System.Void EnergyScript::SetBrightness(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetBrightness_mAA55E0D3E8A7877B48CC65D37589215273B2E292 (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, int32_t ___x0, const RuntimeMethod* method) 
+{
+	{
+		// if(x>=0 && x<=2)
+		int32_t L_0 = ___x0;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		int32_t L_1 = ___x0;
+		if ((((int32_t)L_1) > ((int32_t)2)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		// weatherScript.SetBrightness(x);
+		WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* L_2 = __this->___weatherScript_18;
+		int32_t L_3 = ___x0;
+		WeatherScript_SetBrightness_m2B17922E658670C99ADD1DC2CC0ED183AE5ED350(L_2, L_3, NULL);
+	}
+
+IL_0014:
+	{
+		// }
+		return;
+	}
+}
+// System.Void EnergyScript::SetCloudIntensity(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript_SetCloudIntensity_m5FA888D01A5DFB8F87CC805CD01FE2C9C3EF5C4F (EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* __this, int32_t ___x0, const RuntimeMethod* method) 
+{
+	{
+		// if(x>=7 && x<=15)
+		int32_t L_0 = ___x0;
+		if ((((int32_t)L_0) < ((int32_t)7)))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_1 = ___x0;
+		if ((((int32_t)L_1) > ((int32_t)((int32_t)15))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		// weatherScript.SetCloudIntensity(x);
+		WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* L_2 = __this->___weatherScript_18;
+		int32_t L_3 = ___x0;
+		WeatherScript_SetCloudIntensity_mF3C1A6590DFE59656480E63AFB494377F4E609E2(L_2, L_3, NULL);
+	}
+
+IL_0015:
+	{
 		// }
 		return;
 	}
@@ -1516,8 +1872,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnergyScript__ctor_mF217E7842380BB094202
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void EnergyScript/<CustomUpdate>d__24::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCustomUpdateU3Ed__24__ctor_m225268A3C4208269C3E3E8B9DAADDC99F7403CB2 (U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void EnergyScript/<CustomUpdate>d__25::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCustomUpdateU3Ed__25__ctor_mD2D0820F9E0E81D7B4829C9D48E3FED88F2A7201 (U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -1526,15 +1882,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCustomUpdateU3Ed__24__ctor_m225268A3C
 		return;
 	}
 }
-// System.Void EnergyScript/<CustomUpdate>d__24::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCustomUpdateU3Ed__24_System_IDisposable_Dispose_mD988CFCF3A76E2E144B57851B062F7DE1D83B73A (U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2* __this, const RuntimeMethod* method) 
+// System.Void EnergyScript/<CustomUpdate>d__25::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCustomUpdateU3Ed__25_System_IDisposable_Dispose_m63986E5F273B76156F5C81CC1F49EF34A98EFAA1 (U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean EnergyScript/<CustomUpdate>d__24::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCustomUpdateU3Ed__24_MoveNext_mA661DE6FC2D0151E9E0A300DF9EC4713DB199AA5 (U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2* __this, const RuntimeMethod* method) 
+// System.Boolean EnergyScript/<CustomUpdate>d__25::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCustomUpdateU3Ed__25_MoveNext_m3C28AD3EAAF10BCA2F203C6277C6AC8F66A95D5C (U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1581,13 +1937,13 @@ IL_0021:
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_5 = V_1;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_6 = L_5->___windows_4;
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_7 = V_1;
-		int32_t L_8 = L_7->___speed1_18;
+		int32_t L_8 = L_7->___speed1_19;
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_9 = V_1;
-		int32_t L_10 = L_9->___speed2_19;
+		int32_t L_10 = L_9->___speed2_20;
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_11 = V_1;
-		int32_t L_12 = L_11->___speed3_20;
+		int32_t L_12 = L_11->___speed3_21;
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_13 = V_1;
-		int32_t L_14 = L_13->___speed4_21;
+		int32_t L_14 = L_13->___speed4_22;
 		L_4->___nrOn_9 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_6)->max_length)), ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_8, L_10)), L_12)), L_14))))/((int32_t)400)));
 		// if (nrOn <= windows.Length)
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_15 = V_1;
@@ -1714,25 +2070,25 @@ IL_00f9:
 		goto IL_0021;
 	}
 }
-// System.Object EnergyScript/<CustomUpdate>d__24::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCustomUpdateU3Ed__24_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7E04111667539CFD6F6A1E731D8E59719B23C132 (U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2* __this, const RuntimeMethod* method) 
+// System.Object EnergyScript/<CustomUpdate>d__25::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCustomUpdateU3Ed__25_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF995B4DDDFA9CF5CC73D94D9B57911B9FDA62435 (U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void EnergyScript/<CustomUpdate>d__24::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCustomUpdateU3Ed__24_System_Collections_IEnumerator_Reset_mBBD4A8F5423B0DC03C273BB5902F128E5109F052 (U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2* __this, const RuntimeMethod* method) 
+// System.Void EnergyScript/<CustomUpdate>d__25::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCustomUpdateU3Ed__25_System_Collections_IEnumerator_Reset_m57BDAB6ADFB89A4FB94CA2EA420ED3A22672B517 (U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCustomUpdateU3Ed__24_System_Collections_IEnumerator_Reset_mBBD4A8F5423B0DC03C273BB5902F128E5109F052_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCustomUpdateU3Ed__25_System_Collections_IEnumerator_Reset_m57BDAB6ADFB89A4FB94CA2EA420ED3A22672B517_RuntimeMethod_var)));
 	}
 }
-// System.Object EnergyScript/<CustomUpdate>d__24::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCustomUpdateU3Ed__24_System_Collections_IEnumerator_get_Current_mA938C7B9B789EB341CE09144D68983128A03D7CE (U3CCustomUpdateU3Ed__24_tDA2D42A4CC029B27CBF340160CE326F75349BFF2* __this, const RuntimeMethod* method) 
+// System.Object EnergyScript/<CustomUpdate>d__25::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCustomUpdateU3Ed__25_System_Collections_IEnumerator_get_Current_m99503CB830557A207939A902DD29836F248D87BF (U3CCustomUpdateU3Ed__25_t6990370882F3B2E0FB4CFCFE1CBC5D4520113694* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
@@ -1747,8 +2103,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCustomUpdateU3Ed__24_System
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void EnergyScript/<SwitchLights>d__26::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSwitchLightsU3Ed__26__ctor_mAE659462B40CA453358F4D81320B76D15186B5CC (U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void EnergyScript/<SwitchLights>d__27::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSwitchLightsU3Ed__27__ctor_m608B317328799A7A4D3B188CC8C47CA28B3E94F4 (U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -1757,15 +2113,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSwitchLightsU3Ed__26__ctor_mAE659462B
 		return;
 	}
 }
-// System.Void EnergyScript/<SwitchLights>d__26::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSwitchLightsU3Ed__26_System_IDisposable_Dispose_m46807AC37B440DDC42903167867E4519EA4C5086 (U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46* __this, const RuntimeMethod* method) 
+// System.Void EnergyScript/<SwitchLights>d__27::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSwitchLightsU3Ed__27_System_IDisposable_Dispose_m03D819E86D88A53A8ADC62AD54A1179E9BFDF24B (U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean EnergyScript/<SwitchLights>d__26::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSwitchLightsU3Ed__26_MoveNext_m349F3CC5DD122F7ABC3C50033D8BCE3DD84B565A (U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46* __this, const RuntimeMethod* method) 
+// System.Boolean EnergyScript/<SwitchLights>d__27::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSwitchLightsU3Ed__27_MoveNext_m5BB2811D8B3410BB0A3C91EE2D218E725400FC67 (U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1810,13 +2166,13 @@ IL_0021:
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_4 = V_1;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_5 = __this->___windows_3;
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_6 = V_1;
-		int32_t L_7 = L_6->___speed1_18;
+		int32_t L_7 = L_6->___speed1_19;
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_8 = V_1;
-		int32_t L_9 = L_8->___speed2_19;
+		int32_t L_9 = L_8->___speed2_20;
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_10 = V_1;
-		int32_t L_11 = L_10->___speed3_20;
+		int32_t L_11 = L_10->___speed3_21;
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_12 = V_1;
-		int32_t L_13 = L_12->___speed4_21;
+		int32_t L_13 = L_12->___speed4_22;
 		L_4->___nrOn_9 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_5)->max_length)), ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_7, L_9)), L_11)), L_13))))/((int32_t)400)));
 		// if (nrOn >= 737)
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_14 = V_1;
@@ -1995,25 +2351,25 @@ IL_014e:
 		goto IL_0021;
 	}
 }
-// System.Object EnergyScript/<SwitchLights>d__26::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSwitchLightsU3Ed__26_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB26C8339360A302C9CC73591912B4D8217562856 (U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46* __this, const RuntimeMethod* method) 
+// System.Object EnergyScript/<SwitchLights>d__27::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSwitchLightsU3Ed__27_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB0C2C9C944167D30440C316DB3D5F0F72D729E1F (U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void EnergyScript/<SwitchLights>d__26::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSwitchLightsU3Ed__26_System_Collections_IEnumerator_Reset_mA866C64E208D1BFAEBF33F5E58BA9BE878AD7854 (U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46* __this, const RuntimeMethod* method) 
+// System.Void EnergyScript/<SwitchLights>d__27::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSwitchLightsU3Ed__27_System_Collections_IEnumerator_Reset_m0A7E5E794D0C72D7E3616D17C3BA09E87F014FD9 (U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSwitchLightsU3Ed__26_System_Collections_IEnumerator_Reset_mA866C64E208D1BFAEBF33F5E58BA9BE878AD7854_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSwitchLightsU3Ed__27_System_Collections_IEnumerator_Reset_m0A7E5E794D0C72D7E3616D17C3BA09E87F014FD9_RuntimeMethod_var)));
 	}
 }
-// System.Object EnergyScript/<SwitchLights>d__26::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSwitchLightsU3Ed__26_System_Collections_IEnumerator_get_Current_m101F2DB15B18B04012FB539DBD1E1E025CF140FB (U3CSwitchLightsU3Ed__26_t21208A69B1444C86CA3A07062220500CB65B0C46* __this, const RuntimeMethod* method) 
+// System.Object EnergyScript/<SwitchLights>d__27::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSwitchLightsU3Ed__27_System_Collections_IEnumerator_get_Current_m0DEBB1AC2E6B5666CDAC8CBAFA01766C14FDAC14 (U3CSwitchLightsU3Ed__27_t1E28431A82387713C3AF183A5CA145409BAFFC0A* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
@@ -2028,8 +2384,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSwitchLightsU3Ed__26_System
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void EnergyScript/<GameOver>d__27::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGameOverU3Ed__27__ctor_mD370ACEED2898AEC311C0B23AEB63C80F008443D (U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void EnergyScript/<GameOver>d__28::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGameOverU3Ed__28__ctor_m6F3CD15709098F570C955F8644020E1EC4D94F38 (U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -2038,15 +2394,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGameOverU3Ed__27__ctor_mD370ACEED2898
 		return;
 	}
 }
-// System.Void EnergyScript/<GameOver>d__27::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGameOverU3Ed__27_System_IDisposable_Dispose_mB2B9D153E8D5435F274E11BDC726F40250D5B590 (U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F* __this, const RuntimeMethod* method) 
+// System.Void EnergyScript/<GameOver>d__28::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGameOverU3Ed__28_System_IDisposable_Dispose_m78A331F8177F0F665451F96D834285C37E320500 (U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean EnergyScript/<GameOver>d__27::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGameOverU3Ed__27_MoveNext_mE3920D5440FA09E5BE8EB95CBE9E72ED8C47CBA9 (U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F* __this, const RuntimeMethod* method) 
+// System.Boolean EnergyScript/<GameOver>d__28::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGameOverU3Ed__28_MoveNext_mA0FBCCFFBFBF9D922C03CDDAE593D47188E7A8C4 (U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2181,25 +2537,25 @@ IL_00fa:
 		return (bool)0;
 	}
 }
-// System.Object EnergyScript/<GameOver>d__27::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGameOverU3Ed__27_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBA7B2BC6B6CA85FF9876F24A6D45850416FB5132 (U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F* __this, const RuntimeMethod* method) 
+// System.Object EnergyScript/<GameOver>d__28::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGameOverU3Ed__28_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5668F39B52E79612A238D4FB9F486F463CF0CD2F (U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void EnergyScript/<GameOver>d__27::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGameOverU3Ed__27_System_Collections_IEnumerator_Reset_mF44612B796FA6F7FC12541E951B44B690EAA5B03 (U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F* __this, const RuntimeMethod* method) 
+// System.Void EnergyScript/<GameOver>d__28::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGameOverU3Ed__28_System_Collections_IEnumerator_Reset_mC3768B5D650F6934017ACE51933F56F1024D9BCC (U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGameOverU3Ed__27_System_Collections_IEnumerator_Reset_mF44612B796FA6F7FC12541E951B44B690EAA5B03_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGameOverU3Ed__28_System_Collections_IEnumerator_Reset_mC3768B5D650F6934017ACE51933F56F1024D9BCC_RuntimeMethod_var)));
 	}
 }
-// System.Object EnergyScript/<GameOver>d__27::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGameOverU3Ed__27_System_Collections_IEnumerator_get_Current_m7EB86D01372C8E42227F7E32D1B80993648B5366 (U3CGameOverU3Ed__27_t2A3E4F389C49BEABADCFBC045EA3ECB949345F0F* __this, const RuntimeMethod* method) 
+// System.Object EnergyScript/<GameOver>d__28::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGameOverU3Ed__28_System_Collections_IEnumerator_get_Current_m95171FFC1F943D741D841CFC2FCEB9CF99A78DE7 (U3CGameOverU3Ed__28_t31F9944FB46E1A9C429029EB7222284E7A434548* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
@@ -2580,6 +2936,184 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFireCoroutineU3Ed__7_System
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WeatherScript::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherScript_Start_mB95984AD548DF11A5006C74A527DF2876BE71FE4 (WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* __this, const RuntimeMethod* method) 
+{
+	{
+		// cloudIntensity = 1.4f;
+		__this->___cloudIntensity_5 = (1.39999998f);
+		// brightness = 2f;
+		__this->___brightness_6 = (2.0f);
+		// darkGrass = new Color32(24,24,24,255);
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_0), (uint8_t)((int32_t)24), (uint8_t)((int32_t)24), (uint8_t)((int32_t)24), (uint8_t)((int32_t)255), /*hidden argument*/NULL);
+		__this->___darkGrass_13 = L_0;
+		// brightGrass = new Color32(55,55,55,255);
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_1), (uint8_t)((int32_t)55), (uint8_t)((int32_t)55), (uint8_t)((int32_t)55), (uint8_t)((int32_t)255), /*hidden argument*/NULL);
+		__this->___brightGrass_14 = L_1;
+		// darkMountains = new Color32(22,22,22,255);
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_2), (uint8_t)((int32_t)22), (uint8_t)((int32_t)22), (uint8_t)((int32_t)22), (uint8_t)((int32_t)255), /*hidden argument*/NULL);
+		__this->___darkMountains_15 = L_2;
+		// brightMountains = new Color32(200,200,200,255);
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_3), (uint8_t)((int32_t)200), (uint8_t)((int32_t)200), (uint8_t)((int32_t)200), (uint8_t)((int32_t)255), /*hidden argument*/NULL);
+		__this->___brightMountains_16 = L_3;
+		// }
+		return;
+	}
+}
+// System.Void WeatherScript::FixedUpdate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherScript_FixedUpdate_m3A98BF7CE15C61D2715DF48B0541663F7C76B309 (WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEB9A43A207EECF86B5802D65091B5C82B984E052);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF2F8A73F36BC9F8340CA51E5D8320663390E37DC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// GetComponent<AudioSource>().volume = windIntensity / 480;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0;
+		L_0 = Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B(__this, Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
+		float L_1 = __this->___windIntensity_4;
+		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_0, ((float)(L_1/(480.0f))), NULL);
+		// skyCloudyMaterial.SetFloat("_Rotation", Time.time * cloudIntensity);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___skyCloudyMaterial_7;
+		float L_3;
+		L_3 = Time_get_time_m0BEE9AACD0723FE414465B77C9C64D12263675F3(NULL);
+		float L_4 = __this->___cloudIntensity_5;
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_2, _stringLiteralF2F8A73F36BC9F8340CA51E5D8320663390E37DC, ((float)il2cpp_codegen_multiply(L_3, L_4)), NULL);
+		// skyCloudyMaterial.SetFloat("_Exposure", brightness);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->___skyCloudyMaterial_7;
+		float L_6 = __this->___brightness_6;
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_5, _stringLiteralEB9A43A207EECF86B5802D65091B5C82B984E052, L_6, NULL);
+		// directionalLight.intensity = brightness;
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_7 = __this->___directionalLight_8;
+		float L_8 = __this->___brightness_6;
+		Light_set_intensity_mE4820C7F39F490B92ED5EA0C3AADA7C0775BE854(L_7, L_8, NULL);
+		// mountains.color = Color32.Lerp(darkMountains, brightMountains, brightness/2);
+		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_9 = __this->___mountains_10;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_10 = __this->___darkMountains_15;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_11 = __this->___brightMountains_16;
+		float L_12 = __this->___brightness_6;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_13;
+		L_13 = Color32_Lerp_mFCF88660799190EF7B1B9B811CA269C25555CA9E_inline(L_10, L_11, ((float)(L_12/(2.0f))), NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
+		L_14 = Color32_op_Implicit_m203A634DBB77053C9400C68065CA29529103D172_inline(L_13, NULL);
+		SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546(L_9, L_14, NULL);
+		// mountains1.color = Color32.Lerp(darkMountains, brightMountains, brightness/2);
+		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_15 = __this->___mountains1_11;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_16 = __this->___darkMountains_15;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_17 = __this->___brightMountains_16;
+		float L_18 = __this->___brightness_6;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_19;
+		L_19 = Color32_Lerp_mFCF88660799190EF7B1B9B811CA269C25555CA9E_inline(L_16, L_17, ((float)(L_18/(2.0f))), NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20;
+		L_20 = Color32_op_Implicit_m203A634DBB77053C9400C68065CA29529103D172_inline(L_19, NULL);
+		SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546(L_15, L_20, NULL);
+		// mountains2.color = Color32.Lerp(darkMountains, brightMountains, brightness/2);
+		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_21 = __this->___mountains2_12;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_22 = __this->___darkMountains_15;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_23 = __this->___brightMountains_16;
+		float L_24 = __this->___brightness_6;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_25;
+		L_25 = Color32_Lerp_mFCF88660799190EF7B1B9B811CA269C25555CA9E_inline(L_22, L_23, ((float)(L_24/(2.0f))), NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
+		L_26 = Color32_op_Implicit_m203A634DBB77053C9400C68065CA29529103D172_inline(L_25, NULL);
+		SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546(L_21, L_26, NULL);
+		// if(brightness>=1.41)
+		float L_27 = __this->___brightness_6;
+		if ((!(((double)((double)L_27)) >= ((double)(1.4099999999999999)))))
+		{
+			goto IL_010d;
+		}
+	}
+	{
+		// lerpGrassValue = (brightness-1.41f)/0.59f;
+		float L_28 = __this->___brightness_6;
+		__this->___lerpGrassValue_17 = ((float)(((float)il2cpp_codegen_subtract(L_28, (1.40999997f)))/(0.589999974f)));
+		goto IL_0118;
+	}
+
+IL_010d:
+	{
+		// lerpGrassValue = 0;
+		__this->___lerpGrassValue_17 = (0.0f);
+	}
+
+IL_0118:
+	{
+		// grass.color = Color32.Lerp(darkGrass, brightGrass, lerpGrassValue);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_29 = __this->___grass_9;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_30 = __this->___darkGrass_13;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_31 = __this->___brightGrass_14;
+		float L_32 = __this->___lerpGrassValue_17;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_33;
+		L_33 = Color32_Lerp_mFCF88660799190EF7B1B9B811CA269C25555CA9E_inline(L_30, L_31, L_32, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34;
+		L_34 = Color32_op_Implicit_m203A634DBB77053C9400C68065CA29529103D172_inline(L_33, NULL);
+		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_29, L_34, NULL);
+		// }
+		return;
+	}
+}
+// System.Void WeatherScript::SetWindIntensity(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherScript_SetWindIntensity_m2DCDD3777814A68EB59D701DC6B5F30B976DC7CD (WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* __this, int32_t ___windIntensity0, const RuntimeMethod* method) 
+{
+	{
+		// this.windIntensity = windIntensity;
+		int32_t L_0 = ___windIntensity0;
+		__this->___windIntensity_4 = ((float)L_0);
+		// }
+		return;
+	}
+}
+// System.Void WeatherScript::SetCloudIntensity(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherScript_SetCloudIntensity_mF3C1A6590DFE59656480E63AFB494377F4E609E2 (WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* __this, int32_t ___cloudIntensity0, const RuntimeMethod* method) 
+{
+	{
+		// this.cloudIntensity = cloudIntensity;
+		int32_t L_0 = ___cloudIntensity0;
+		__this->___cloudIntensity_5 = ((float)L_0);
+		// }
+		return;
+	}
+}
+// System.Void WeatherScript::SetBrightness(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherScript_SetBrightness_m2B17922E658670C99ADD1DC2CC0ED183AE5ED350 (WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* __this, int32_t ___brightness0, const RuntimeMethod* method) 
+{
+	{
+		// this.brightness = brightness;
+		int32_t L_0 = ___brightness0;
+		__this->___brightness_6 = ((float)L_0);
+		// }
+		return;
+	}
+}
+// System.Void WeatherScript::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherScript__ctor_mDF7E75C6A06603F2AFFC893F629DAEE18316C969 (WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
 	}
 }
 #ifdef __clang__
@@ -3042,6 +3576,97 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t WindMillScript_GetSpeed_m
 		return L_0;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* __this, uint8_t ___r0, uint8_t ___g1, uint8_t ___b2, uint8_t ___a3, const RuntimeMethod* method) 
+{
+	{
+		__this->___rgba_0 = 0;
+		uint8_t L_0 = ___r0;
+		__this->___r_1 = L_0;
+		uint8_t L_1 = ___g1;
+		__this->___g_2 = L_1;
+		uint8_t L_2 = ___b2;
+		__this->___b_3 = L_2;
+		uint8_t L_3 = ___a3;
+		__this->___a_4 = L_3;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B Color32_Lerp_mFCF88660799190EF7B1B9B811CA269C25555CA9E_inline (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___a0, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___b1, float ___t2, const RuntimeMethod* method) 
+{
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = ___t2;
+		float L_1;
+		L_1 = Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline(L_0, NULL);
+		___t2 = L_1;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2 = ___a0;
+		uint8_t L_3 = L_2.___r_1;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4 = ___b1;
+		uint8_t L_5 = L_4.___r_1;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_6 = ___a0;
+		uint8_t L_7 = L_6.___r_1;
+		float L_8 = ___t2;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_9 = ___a0;
+		uint8_t L_10 = L_9.___g_2;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_11 = ___b1;
+		uint8_t L_12 = L_11.___g_2;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_13 = ___a0;
+		uint8_t L_14 = L_13.___g_2;
+		float L_15 = ___t2;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_16 = ___a0;
+		uint8_t L_17 = L_16.___b_3;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_18 = ___b1;
+		uint8_t L_19 = L_18.___b_3;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_20 = ___a0;
+		uint8_t L_21 = L_20.___b_3;
+		float L_22 = ___t2;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_23 = ___a0;
+		uint8_t L_24 = L_23.___a_4;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_25 = ___b1;
+		uint8_t L_26 = L_25.___a_4;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_27 = ___a0;
+		uint8_t L_28 = L_27.___a_4;
+		float L_29 = ___t2;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_30;
+		memset((&L_30), 0, sizeof(L_30));
+		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_30), (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(((float)il2cpp_codegen_add(((float)L_3), ((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_subtract((int32_t)L_5, (int32_t)L_7))), L_8))))), (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(((float)il2cpp_codegen_add(((float)L_10), ((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_subtract((int32_t)L_12, (int32_t)L_14))), L_15))))), (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(((float)il2cpp_codegen_add(((float)L_17), ((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_subtract((int32_t)L_19, (int32_t)L_21))), L_22))))), (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(((float)il2cpp_codegen_add(((float)L_24), ((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_subtract((int32_t)L_26, (int32_t)L_28))), L_29))))), /*hidden argument*/NULL);
+		V_0 = L_30;
+		goto IL_0075;
+	}
+
+IL_0075:
+	{
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_31 = V_0;
+		return L_31;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color32_op_Implicit_m203A634DBB77053C9400C68065CA29529103D172_inline (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___c0, const RuntimeMethod* method) 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_0 = ___c0;
+		uint8_t L_1 = L_0.___r_1;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2 = ___c0;
+		uint8_t L_3 = L_2.___g_2;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4 = ___c0;
+		uint8_t L_5 = L_4.___b_3;
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_6 = ___c0;
+		uint8_t L_7 = L_6.___a_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_8), ((float)(((float)L_1)/(255.0f))), ((float)(((float)L_3)/(255.0f))), ((float)(((float)L_5)/(255.0f))), ((float)(((float)L_7)/(255.0f))), /*hidden argument*/NULL);
+		V_0 = L_8;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = V_0;
+		return L_9;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m516FE285F5342F922C6EB3FCB33197E9017FF484_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, float ___d1, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -3134,5 +3759,19 @@ IL_002d:
 	{
 		float L_5 = V_1;
 		return L_5;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___r0, float ___g1, float ___b2, float ___a3, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___r0;
+		__this->___r_0 = L_0;
+		float L_1 = ___g1;
+		__this->___g_1 = L_1;
+		float L_2 = ___b2;
+		__this->___b_2 = L_2;
+		float L_3 = ___a3;
+		__this->___a_3 = L_3;
+		return;
 	}
 }

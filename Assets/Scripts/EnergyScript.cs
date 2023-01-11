@@ -20,7 +20,7 @@ public class EnergyScript : MonoBehaviour
     public WindMillScript w3;
     public WindMillScript w4;
     public GameObject easterEgg;
-    public WindScript windScript;
+    public WeatherScript weatherScript;
 
     private int speed1;
     private int speed2;
@@ -46,7 +46,7 @@ public class EnergyScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        windScript.SetWindIntensity(energyT1+energyT2+energyT3+energyT4);
+        weatherScript.SetWindIntensity(energyT1+energyT2+energyT3+energyT4);
         
         w1.SetSpeed(energyT1);
         w2.SetSpeed(energyT2);
@@ -163,28 +163,57 @@ public class EnergyScript : MonoBehaviour
     }
 
     //scripts for React
-    public void SetEnergyT1(int x)
+    public void SetEnergyT1(int x) //from 0 to 120
     {
-        this.energyT1 = x;
+        if(x>=0 && x<=120)
+        {
+            this.energyT1 = x;
+        }
     }
-    public void SetEnergyT2(int x)
+    public void SetEnergyT2(int x) //from 0 to 120
     {
-        this.energyT2 = x;
+        if(x>=0 && x<=120)
+        {
+            this.energyT2 = x;   
+        }
     }
-    public void SetEnergyT3(int x)
+    public void SetEnergyT3(int x) //from 0 to 120
     {
-        this.energyT3 = x;
+        if(x>=0 && x<=120)
+        {
+            this.energyT3 = x;
+        }
     }
-    public void SetEnergyT4(int x)
+    public void SetEnergyT4(int x) //from 0 to 120
     {
-        this.energyT4 = x;
+        if(x>=0 && x<=120)
+        {
+            this.energyT4 = x;
+        }
     }
-    public void SetEnergyAllT(int x)
+    public void SetEnergyAllT(int x) //from 0 to 120
     {
-        this.energyT1 = x;
-        this.energyT2 = x;
-        this.energyT3 = x;
-        this.energyT4 = x;
+        if(x>=0 && x<=120)
+        {
+            this.energyT1 = x;
+            this.energyT2 = x;
+            this.energyT3 = x;
+            this.energyT4 = x;
+        }
+    }
+    public void SetBrightness(int x) //from 0 to 2 (2 default)
+    {
+        if(x>=0 && x<=2)
+        {
+            weatherScript.SetBrightness(x);
+        }
+    }
+    public void SetCloudIntensity(int x) //from 7 to 15 (7 default)
+    {
+        if(x>=7 && x<=15)
+        {
+            weatherScript.SetCloudIntensity(x);
+        }
     }
     public void Restart()
     {

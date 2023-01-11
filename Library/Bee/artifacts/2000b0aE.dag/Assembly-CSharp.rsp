@@ -340,8 +340,8 @@
 "Assets/Scripts/EasterEggScript.cs"
 "Assets/Scripts/EnergyScript.cs"
 "Assets/Scripts/FireScript.cs"
+"Assets/Scripts/WeatherScript.cs"
 "Assets/Scripts/WindMillScript.cs"
-"Assets/WindScript.cs"
 -langversion:9.0
 
 /deterministic
