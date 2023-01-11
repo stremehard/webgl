@@ -291,9 +291,10 @@
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll"
-"Assets/FireScript.cs"
 "Assets/Scripts/ActionScript.cs"
+"Assets/Scripts/EasterEggScript.cs"
 "Assets/Scripts/EnergyScript.cs"
+"Assets/Scripts/FireScript.cs"
 "Assets/Scripts/WindMillScript.cs"
 -langversion:9.0
 

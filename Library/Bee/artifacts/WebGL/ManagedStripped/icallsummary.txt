@@ -4,6 +4,10 @@ UnityEngine.AnimationCurve::Internal_Equals
 UnityEngine.AnimationCurve::Internal_Create
 UnityEngine.AnimationCurve::Internal_Destroy
 UnityEngine.Animations.AnimationLayerMixerPlayable::SetSingleLayerOptimizationInternal
+UnityEngine.Animator::StringToHash
+UnityEngine.Animator::GetAnimatorStateInfo
+UnityEngine.Animator::SetBoolString
+UnityEngine.AsyncOperation::InternalDestroy
 UnityEngine.Camera::GetAllCamerasCount
 UnityEngine.Camera::GetAllCamerasImpl
 UnityEngine.Camera::get_cullingMask
@@ -17,6 +21,7 @@ UnityEngine.Camera::get_clearFlags
 UnityEngine.Camera::get_targetTexture
 UnityEngine.CameraRaycastHelper::RaycastTry2D_Injected
 UnityEngine.CameraRaycastHelper::RaycastTry_Injected
+UnityEngine.Component::get_gameObject
 UnityEngine.Component::get_transform
 UnityEngine.ComputeShader::FindKernel
 UnityEngine.Coroutine::ReleaseCoroutine
@@ -42,6 +47,7 @@ UnityEngine.GameObject::SendMessage
 UnityEngine.GameObject::SetActive
 UnityEngine.GameObject::GetComponent
 UnityEngine.GameObject::FindGameObjectsWithTag
+UnityEngine.GameObject::get_transform
 UnityEngine.Gradient::Internal_Equals
 UnityEngine.Gradient::Init
 UnityEngine.Gradient::Cleanup
@@ -109,6 +115,7 @@ UnityEngine.QualitySettings::get_activeColorSpace
 UnityEngine.Quaternion::Internal_FromEulerRad_Injected
 UnityEngine.Quaternion::Internal_ToEulerRad_Injected
 UnityEngine.Quaternion::Inverse_Injected
+UnityEngine.Quaternion::LookRotation_Injected
 UnityEngine.Random::RandomRangeInt
 UnityEngine.Renderer::SetMaterial
 UnityEngine.Rendering.GraphicsSettings::get_lightsUseLinearIntensity
@@ -122,6 +129,9 @@ UnityEngine.RenderTexture::SetSRGBReadWrite
 UnityEngine.RenderTexture::set_depthStencilFormat
 UnityEngine.RenderTexture::set_height
 UnityEngine.RenderTexture::set_width
+UnityEngine.SceneManagement.SceneManager::get_sceneCount
+UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected
+UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width
 UnityEngine.ScriptableObject::CreateScriptableObject
@@ -140,6 +150,8 @@ UnityEngine.Transform::get_localRotation_Injected
 UnityEngine.Transform::get_position_Injected
 UnityEngine.Transform::get_rotation_Injected
 UnityEngine.Transform::set_localRotation_Injected
+UnityEngine.Transform::set_position_Injected
 UnityEngine.Transform::set_rotation_Injected
 UnityEngine.Transform::GetChild
 UnityEngine.U2D.SpriteAtlasManager::Register
+UnityEngine.Vector3::RotateTowards_Injected

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class EnergyScript : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class EnergyScript : MonoBehaviour
     public WindMillScript w2;
     public WindMillScript w3;
     public WindMillScript w4;
+    public GameObject easterEgg;
 
     private int speed1;
     private int speed2;
@@ -101,14 +103,13 @@ public class EnergyScript : MonoBehaviour
         while (true)
         {
             nrOn = (windows.Length * (speed1 + speed2 + speed3 + speed4)) / 400;
-            Debug.Log(nrOn);
 
             if (nrOn >= 737)
             {
                 //game over
                 rndSwitchValue = 4;
                 fireScript.on = true;
-                StartCoroutine(SetTurbinesOnFire());
+                StartCoroutine(GameOver());
             }
             else if (nrOn >= 705)
             {
@@ -144,7 +145,7 @@ public class EnergyScript : MonoBehaviour
         }
     }
 
-    IEnumerator SetTurbinesOnFire()
+    IEnumerator GameOver()
     {
         yield return new WaitForSeconds(0.5f);
         w1.SetFire();
@@ -154,6 +155,8 @@ public class EnergyScript : MonoBehaviour
         w3.SetFire();
         yield return new WaitForSeconds(0.5f);
         w4.SetFire();
+        yield return new WaitForSeconds(20);
+        easterEgg.SetActive(true);
     }
 
     //scripts for React
@@ -172,5 +175,9 @@ public class EnergyScript : MonoBehaviour
     public void SetEnergyT4(int x)
     {
         this.energyT4 = x;
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene("Main");
     }
 }

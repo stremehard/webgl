@@ -33,7 +33,6 @@ public class WindMillScript : MonoBehaviour
         if(fireOn && lerpValue<=1)
         {
             speed = (int)Mathf.Lerp(currentSpeed, 0, lerpValue);
-            Debug.Log(speed);
             lerpValue += 0.001f;
         }
 

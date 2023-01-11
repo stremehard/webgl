@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ActionScript
+    - EasterEggScript
     - EnergyScript
     - FireScript
     - WindMillScript
@@ -21,7 +23,7 @@ ScriptsOnlyBuild:
   serializedClasses: {}
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Main.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -39,6 +41,8 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
@@ -59,13 +63,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 5758}
+      Script: {instanceID: 4754}
     - Class: 114
-      Script: {instanceID: 6436}
+      Script: {instanceID: 5764}
     - Class: 114
-      Script: {instanceID: 29828}
+      Script: {instanceID: 6442}
     - Class: 114
-      Script: {instanceID: 38724}
+      Script: {instanceID: 8288}
+    - Class: 114
+      Script: {instanceID: 139624}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -487,6 +493,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 3b0074b33caeecc3fe3680799c750cb5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireScript
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -607,7 +619,7 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 85c5504cc28364237025155c644066af
+      Hash: 5e6b18746a136d2b626d43e7c905fbcf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnergyScript
@@ -877,11 +889,11 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 3b0074b33caeecc3fe3680799c750cb5
+      Hash: bfe2a6d48a2aa80f72e0be620cfde827
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: FireScript
+    className: EasterEggScript
   platform: 20
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Main.unity
   playerPath: D:/Career/Adapt/Unity/WebGL built

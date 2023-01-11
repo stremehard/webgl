@@ -56,10 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\FireScript.cs" />
     <Compile Include="Assets\Scripts\EnergyScript.cs" />
     <Compile Include="Assets\Scripts\WindMillScript.cs" />
     <Compile Include="Assets\Scripts\ActionScript.cs" />
-    <Compile Include="Assets\FireScript.cs" />
+    <Compile Include="Assets\Scripts\EasterEggScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
