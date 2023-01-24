@@ -23172,6 +23172,8 @@ struct WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C  : public MonoBe
 	int32_t ___currentSpeed_8;
 	// System.Single WindMillScript::lerpValue
 	float ___lerpValue_9;
+	// System.Int32 WindMillScript::state
+	int32_t ___state_10;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

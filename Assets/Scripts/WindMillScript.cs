@@ -13,10 +13,12 @@ public class WindMillScript : MonoBehaviour
     private int currentSpeed = 120;
     private float lerpValue = 0;
 
+    private int state; // 0-Good 1-Error 2-Destroyed
+
     // Start is called before the first frame update
     void Start()
     {
-
+        state = 0;
     }
 
     // Update is called once per frame
@@ -61,18 +63,32 @@ public class WindMillScript : MonoBehaviour
 
     void OnMouseDown()
     {
+        if(state != 2)
+        {
+            state = 1;
+        }
         rotate = true;
     }
 
     void OnMouseUp()
     {
+        if(state != 2)
+        {
+            state = 0;
+        }
         rotate = false;
     }
 
     public void SetFire()
     {
+        state = 2;
         fire.SetActive(true);
         currentSpeed = this.speed;
         fireOn = true;
+    }
+
+    public int GetState()
+    {
+        return state; // 0-Good 1-Error 2-Destroyed
     }
 }

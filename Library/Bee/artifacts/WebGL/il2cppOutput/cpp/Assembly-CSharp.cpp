@@ -829,6 +829,8 @@ struct WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C  : public MonoBe
 	int32_t ___currentSpeed_8;
 	// System.Single WindMillScript::lerpValue
 	float ___lerpValue_9;
+	// System.Int32 WindMillScript::state
+	int32_t ___state_10;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -3128,6 +3130,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherScript__ctor_mDF7E75C6A06603F2AFF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_Start_m605B1C1D690F76FB2F45178EADCBBADE6CA97ECB (WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* __this, const RuntimeMethod* method) 
 {
 	{
+		// state = 0;
+		__this->___state_10 = 0;
 		// }
 		return;
 	}
@@ -3301,6 +3305,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WindMillScript_GetSpeed_mC55541748BC5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_OnMouseDown_mBDBF246E0E671ECC37ADE813A1039247C5295ED0 (WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* __this, const RuntimeMethod* method) 
 {
 	{
+		// if(state != 2)
+		int32_t L_0 = __this->___state_10;
+		if ((((int32_t)L_0) == ((int32_t)2)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		// state = 1;
+		__this->___state_10 = 1;
+	}
+
+IL_0010:
+	{
 		// rotate = true;
 		__this->___rotate_5 = (bool)1;
 		// }
@@ -3310,6 +3328,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_OnMouseDown_mBDBF246E0E67
 // System.Void WindMillScript::OnMouseUp()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_OnMouseUp_mBB808FD6A253A2047F326056D3BB6B1631DE2AD6 (WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* __this, const RuntimeMethod* method) 
 {
+	{
+		// if(state != 2)
+		int32_t L_0 = __this->___state_10;
+		if ((((int32_t)L_0) == ((int32_t)2)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		// state = 0;
+		__this->___state_10 = 0;
+	}
+
+IL_0010:
 	{
 		// rotate = false;
 		__this->___rotate_5 = (bool)0;
@@ -3321,6 +3353,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_OnMouseUp_mBB808FD6A253A2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_SetFire_m1E22645B97566792976E8A56288A0874ABADBD83 (WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* __this, const RuntimeMethod* method) 
 {
 	{
+		// state = 2;
+		__this->___state_10 = 2;
 		// fire.SetActive(true);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___fire_6;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
@@ -3331,6 +3365,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_SetFire_m1E22645B97566792
 		__this->___fireOn_7 = (bool)1;
 		// }
 		return;
+	}
+}
+// System.Int32 WindMillScript::GetState()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WindMillScript_GetState_mE6BAF964842AA02ACE465AEE6A66485E7B1E7DD7 (WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* __this, const RuntimeMethod* method) 
+{
+	{
+		// return state; // 0-Good 1-Error 2-Destroyed
+		int32_t L_0 = __this->___state_10;
+		return L_0;
 	}
 }
 // System.Void WindMillScript::.ctor()

@@ -156,9 +156,11 @@ extern void WindMillScript_OnMouseDown_mBDBF246E0E671ECC37ADE813A1039247C5295ED0
 extern void WindMillScript_OnMouseUp_mBB808FD6A253A2047F326056D3BB6B1631DE2AD6 (void);
 // 0x00000048 System.Void WindMillScript::SetFire()
 extern void WindMillScript_SetFire_m1E22645B97566792976E8A56288A0874ABADBD83 (void);
-// 0x00000049 System.Void WindMillScript::.ctor()
+// 0x00000049 System.Int32 WindMillScript::GetState()
+extern void WindMillScript_GetState_mE6BAF964842AA02ACE465AEE6A66485E7B1E7DD7 (void);
+// 0x0000004A System.Void WindMillScript::.ctor()
 extern void WindMillScript__ctor_mC2EBF900680050E7966961B56CD89FC82E975E9A (void);
-static Il2CppMethodPointer s_methodPointers[73] = 
+static Il2CppMethodPointer s_methodPointers[74] = 
 {
 	ActionScript_Start_mFE10A45C11876C0D76364EEC70EABE117DA214C7,
 	ActionScript_Update_mD5A8DDD7EA1641BDFD8074E417A74E317F4904F5,
@@ -232,9 +234,10 @@ static Il2CppMethodPointer s_methodPointers[73] =
 	WindMillScript_OnMouseDown_mBDBF246E0E671ECC37ADE813A1039247C5295ED0,
 	WindMillScript_OnMouseUp_mBB808FD6A253A2047F326056D3BB6B1631DE2AD6,
 	WindMillScript_SetFire_m1E22645B97566792976E8A56288A0874ABADBD83,
+	WindMillScript_GetState_mE6BAF964842AA02ACE465AEE6A66485E7B1E7DD7,
 	WindMillScript__ctor_mC2EBF900680050E7966961B56CD89FC82E975E9A,
 };
-static const int32_t s_InvokerIndices[73] = 
+static const int32_t s_InvokerIndices[74] = 
 {
 	1058,
 	1058,
@@ -308,13 +311,14 @@ static const int32_t s_InvokerIndices[73] =
 	1058,
 	1058,
 	1058,
+	1025,
 	1058,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	73,
+	74,
 	s_methodPointers,
 	0,
 	NULL,

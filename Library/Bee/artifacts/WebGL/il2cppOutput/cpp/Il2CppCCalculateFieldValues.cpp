@@ -19103,6 +19103,8 @@ struct WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C  : public MonoBe
 	int32_t ___currentSpeed_8;
 	// System.Single WindMillScript::lerpValue
 	float ___lerpValue_9;
+	// System.Int32 WindMillScript::state
+	int32_t ___state_10;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -22613,9 +22615,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1973[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1974[14] = 
 {
 	static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___windIntensity_4)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___cloudIntensity_5)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___brightness_6)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___skyCloudyMaterial_7)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___directionalLight_8)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___grass_9)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___mountains_10)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___mountains1_11)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___mountains2_12)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___darkGrass_13)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___brightGrass_14)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___darkMountains_15)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___brightMountains_16)),static_cast<int32_t>(offsetof(WeatherScript_t110AC799BE6BE51FD493BB5CAD5C24CFB0262BEA, ___lerpGrassValue_17)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1975[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1975[7] = 
 {
-	static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___speed_4)),static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___rotate_5)),static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___fire_6)),static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___fireOn_7)),static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___currentSpeed_8)),static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___lerpValue_9)),};
+	static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___speed_4)),static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___rotate_5)),static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___fire_6)),static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___fireOn_7)),static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___currentSpeed_8)),static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___lerpValue_9)),static_cast<int32_t>(offsetof(WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C, ___state_10)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable1978[3] = 
 {
 	0,0,0,};
