@@ -142,25 +142,27 @@ extern void WeatherScript_SetCloudIntensity_mF3C1A6590DFE59656480E63AFB494377F4E
 extern void WeatherScript_SetBrightness_m2B17922E658670C99ADD1DC2CC0ED183AE5ED350 (void);
 // 0x00000041 System.Void WeatherScript::.ctor()
 extern void WeatherScript__ctor_mDF7E75C6A06603F2AFFC893F629DAEE18316C969 (void);
-// 0x00000042 System.Void WindMillScript::Start()
+// 0x00000042 System.Void WindMillScript::TurbineState(System.Int32)
+extern void WindMillScript_TurbineState_m41BCF305B21B9262B753E36A3B35E1DAD6C5A2FF (void);
+// 0x00000043 System.Void WindMillScript::Start()
 extern void WindMillScript_Start_m605B1C1D690F76FB2F45178EADCBBADE6CA97ECB (void);
-// 0x00000043 System.Void WindMillScript::Update()
+// 0x00000044 System.Void WindMillScript::Update()
 extern void WindMillScript_Update_m5671344DD3E1AF101807FBA532796BDC9284F9B3 (void);
-// 0x00000044 System.Void WindMillScript::SetSpeed(System.Int32)
+// 0x00000045 System.Void WindMillScript::SetSpeed(System.Int32)
 extern void WindMillScript_SetSpeed_m1CCAC9EFF2B6C457CF65E335D886CA0A789369A9 (void);
-// 0x00000045 System.Int32 WindMillScript::GetSpeed()
+// 0x00000046 System.Int32 WindMillScript::GetSpeed()
 extern void WindMillScript_GetSpeed_mC55541748BC5C0A0B29328D77CAFEEB0945CAE0A (void);
-// 0x00000046 System.Void WindMillScript::OnMouseDown()
+// 0x00000047 System.Void WindMillScript::OnMouseDown()
 extern void WindMillScript_OnMouseDown_mBDBF246E0E671ECC37ADE813A1039247C5295ED0 (void);
-// 0x00000047 System.Void WindMillScript::OnMouseUp()
+// 0x00000048 System.Void WindMillScript::OnMouseUp()
 extern void WindMillScript_OnMouseUp_mBB808FD6A253A2047F326056D3BB6B1631DE2AD6 (void);
-// 0x00000048 System.Void WindMillScript::SetFire()
+// 0x00000049 System.Void WindMillScript::SetFire()
 extern void WindMillScript_SetFire_m1E22645B97566792976E8A56288A0874ABADBD83 (void);
-// 0x00000049 System.Int32 WindMillScript::GetState()
-extern void WindMillScript_GetState_mE6BAF964842AA02ACE465AEE6A66485E7B1E7DD7 (void);
-// 0x0000004A System.Void WindMillScript::.ctor()
+// 0x0000004A System.Void WindMillScript::TurbineState()
+extern void WindMillScript_TurbineState_mFE2CBE50B759DD0E603CF533BE9349CB997D687A (void);
+// 0x0000004B System.Void WindMillScript::.ctor()
 extern void WindMillScript__ctor_mC2EBF900680050E7966961B56CD89FC82E975E9A (void);
-static Il2CppMethodPointer s_methodPointers[74] = 
+static Il2CppMethodPointer s_methodPointers[75] = 
 {
 	ActionScript_Start_mFE10A45C11876C0D76364EEC70EABE117DA214C7,
 	ActionScript_Update_mD5A8DDD7EA1641BDFD8074E417A74E317F4904F5,
@@ -227,6 +229,7 @@ static Il2CppMethodPointer s_methodPointers[74] =
 	WeatherScript_SetCloudIntensity_mF3C1A6590DFE59656480E63AFB494377F4E609E2,
 	WeatherScript_SetBrightness_m2B17922E658670C99ADD1DC2CC0ED183AE5ED350,
 	WeatherScript__ctor_mDF7E75C6A06603F2AFFC893F629DAEE18316C969,
+	WindMillScript_TurbineState_m41BCF305B21B9262B753E36A3B35E1DAD6C5A2FF,
 	WindMillScript_Start_m605B1C1D690F76FB2F45178EADCBBADE6CA97ECB,
 	WindMillScript_Update_m5671344DD3E1AF101807FBA532796BDC9284F9B3,
 	WindMillScript_SetSpeed_m1CCAC9EFF2B6C457CF65E335D886CA0A789369A9,
@@ -234,10 +237,10 @@ static Il2CppMethodPointer s_methodPointers[74] =
 	WindMillScript_OnMouseDown_mBDBF246E0E671ECC37ADE813A1039247C5295ED0,
 	WindMillScript_OnMouseUp_mBB808FD6A253A2047F326056D3BB6B1631DE2AD6,
 	WindMillScript_SetFire_m1E22645B97566792976E8A56288A0874ABADBD83,
-	WindMillScript_GetState_mE6BAF964842AA02ACE465AEE6A66485E7B1E7DD7,
+	WindMillScript_TurbineState_mFE2CBE50B759DD0E603CF533BE9349CB997D687A,
 	WindMillScript__ctor_mC2EBF900680050E7966961B56CD89FC82E975E9A,
 };
-static const int32_t s_InvokerIndices[74] = 
+static const int32_t s_InvokerIndices[75] = 
 {
 	1058,
 	1058,
@@ -304,6 +307,7 @@ static const int32_t s_InvokerIndices[74] =
 	913,
 	913,
 	1058,
+	2024,
 	1058,
 	1058,
 	913,
@@ -311,14 +315,14 @@ static const int32_t s_InvokerIndices[74] =
 	1058,
 	1058,
 	1058,
-	1025,
+	1058,
 	1058,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	74,
+	75,
 	s_methodPointers,
 	0,
 	NULL,

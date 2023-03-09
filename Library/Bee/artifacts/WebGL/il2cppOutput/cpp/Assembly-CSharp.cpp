@@ -1010,6 +1010,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546 (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Material::set_color(UnityEngine.Color)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___value0, const RuntimeMethod* method) ;
+// System.Void WindMillScript::TurbineState()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_TurbineState_mFE2CBE50B759DD0E603CF533BE9349CB997D687A (WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Input::GetAxis(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Input_GetAxis_m1F49B26F24032F45FB4583C95FB24E6771A161D4 (String_t* ___axisName0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Time::get_deltaTime()
@@ -1020,6 +1022,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_m2A308205498AFEEA3DF784B1C86E4F7C126CA2EE (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___eulers0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Mathf::Lerp(System.Single,System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_mFB4910B358B986AFB22114ED90458E8341867479_inline (float ___a0, float ___b1, float ___t2, const RuntimeMethod* method) ;
+// System.Void WindMillScript::TurbineState(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_TurbineState_m41BCF305B21B9262B753E36A3B35E1DAD6C5A2FF (int32_t ___turbineState0, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Quaternion::Internal_ToEulerRad(UnityEngine.Quaternion)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_Internal_ToEulerRad_m9B2C77284AEE6F2C43B6C42F1F888FB4FC904462 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation0, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Quaternion::Internal_MakePositive(UnityEngine.Vector3)
@@ -1028,6 +1032,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline (float ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___r0, float ___g1, float ___b2, float ___a3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C void DEFAULT_CALL TurbineState(int32_t);
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -2519,9 +2524,9 @@ IL_00cf:
 		EnergyScript_t4D7E2047A7A18CFF005056B0E3E778E5A55BC0F6* L_13 = V_1;
 		WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* L_14 = L_13->___w4_16;
 		WindMillScript_SetFire_m1E22645B97566792976E8A56288A0874ABADBD83(L_14, NULL);
-		// yield return new WaitForSeconds(20);
+		// yield return new WaitForSeconds(5);
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_15 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_15, (20.0f), NULL);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_15, (5.0f), NULL);
 		__this->___U3CU3E2__current_1 = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_15);
 		__this->___U3CU3E1__state_0 = 5;
@@ -3126,12 +3131,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeatherScript__ctor_mDF7E75C6A06603F2AFF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void WindMillScript::TurbineState(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_TurbineState_m41BCF305B21B9262B753E36A3B35E1DAD6C5A2FF (int32_t ___turbineState0, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(TurbineState)(___turbineState0);
+
+}
 // System.Void WindMillScript::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_Start_m605B1C1D690F76FB2F45178EADCBBADE6CA97ECB (WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* __this, const RuntimeMethod* method) 
 {
 	{
 		// state = 0;
 		__this->___state_10 = 0;
+		// TurbineState();
+		WindMillScript_TurbineState_mFE2CBE50B759DD0E603CF533BE9349CB997D687A(__this, NULL);
 		// }
 		return;
 	}
@@ -3309,15 +3325,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_OnMouseDown_mBDBF246E0E67
 		int32_t L_0 = __this->___state_10;
 		if ((((int32_t)L_0) == ((int32_t)2)))
 		{
-			goto IL_0010;
+			goto IL_0016;
 		}
 	}
 	{
 		// state = 1;
 		__this->___state_10 = 1;
+		// TurbineState();
+		WindMillScript_TurbineState_mFE2CBE50B759DD0E603CF533BE9349CB997D687A(__this, NULL);
 	}
 
-IL_0010:
+IL_0016:
 	{
 		// rotate = true;
 		__this->___rotate_5 = (bool)1;
@@ -3333,15 +3351,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_OnMouseUp_mBB808FD6A253A2
 		int32_t L_0 = __this->___state_10;
 		if ((((int32_t)L_0) == ((int32_t)2)))
 		{
-			goto IL_0010;
+			goto IL_0016;
 		}
 	}
 	{
 		// state = 0;
 		__this->___state_10 = 0;
+		// TurbineState();
+		WindMillScript_TurbineState_mFE2CBE50B759DD0E603CF533BE9349CB997D687A(__this, NULL);
 	}
 
-IL_0010:
+IL_0016:
 	{
 		// rotate = false;
 		__this->___rotate_5 = (bool)0;
@@ -3355,6 +3375,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_SetFire_m1E22645B97566792
 	{
 		// state = 2;
 		__this->___state_10 = 2;
+		// TurbineState();
+		WindMillScript_TurbineState_mFE2CBE50B759DD0E603CF533BE9349CB997D687A(__this, NULL);
 		// fire.SetActive(true);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___fire_6;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
@@ -3367,13 +3389,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_SetFire_m1E22645B97566792
 		return;
 	}
 }
-// System.Int32 WindMillScript::GetState()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WindMillScript_GetState_mE6BAF964842AA02ACE465AEE6A66485E7B1E7DD7 (WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* __this, const RuntimeMethod* method) 
+// System.Void WindMillScript::TurbineState()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WindMillScript_TurbineState_mFE2CBE50B759DD0E603CF533BE9349CB997D687A (WindMillScript_t01E282F5D4D96B7A83123381A18370CF1421FC4C* __this, const RuntimeMethod* method) 
 {
 	{
-		// return state; // 0-Good 1-Error 2-Destroyed
+		// TurbineState(state);
 		int32_t L_0 = __this->___state_10;
-		return L_0;
+		WindMillScript_TurbineState_m41BCF305B21B9262B753E36A3B35E1DAD6C5A2FF(L_0, NULL);
+		// }
+		return;
 	}
 }
 // System.Void WindMillScript::.ctor()

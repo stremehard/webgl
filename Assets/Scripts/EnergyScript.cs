@@ -158,7 +158,7 @@ public class EnergyScript : MonoBehaviour
         w3.SetFire();
         yield return new WaitForSeconds(0.5f);
         w4.SetFire();
-        yield return new WaitForSeconds(20);
+        yield return new WaitForSeconds(5);
         easterEgg.SetActive(true);
     }
 

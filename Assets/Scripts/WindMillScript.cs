@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Runtime.InteropServices;
 
 public class WindMillScript : MonoBehaviour
 {
@@ -15,10 +16,14 @@ public class WindMillScript : MonoBehaviour
 
     private int state; // 0-Good 1-Error 2-Destroyed
 
+    [DllImport("__Internal")]
+    private static extern void TurbineState (int turbineState);
+
     // Start is called before the first frame update
     void Start()
     {
         state = 0;
+        TurbineState();
     }
 
     // Update is called once per frame
@@ -66,6 +71,7 @@ public class WindMillScript : MonoBehaviour
         if(state != 2)
         {
             state = 1;
+            TurbineState();
         }
         rotate = true;
     }
@@ -75,6 +81,7 @@ public class WindMillScript : MonoBehaviour
         if(state != 2)
         {
             state = 0;
+            TurbineState();
         }
         rotate = false;
     }
@@ -82,13 +89,16 @@ public class WindMillScript : MonoBehaviour
     public void SetFire()
     {
         state = 2;
+        TurbineState();
         fire.SetActive(true);
         currentSpeed = this.speed;
         fireOn = true;
     }
 
-    public int GetState()
+    public void TurbineState()
     {
-        return state; // 0-Good 1-Error 2-Destroyed
+        #if UNITY_WEBGL == true && UNITY_EDITOR == false
+            TurbineState(state);
+        #endif
     }
 }
